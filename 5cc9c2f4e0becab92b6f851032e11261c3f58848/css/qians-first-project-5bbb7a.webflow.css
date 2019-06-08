@@ -111,6 +111,15 @@
   color: hsla(36.470588235294116, 100.00%, 50.00%, 1.00);
 }
 
+.button-solid.red-border {
+  width: 200px;
+  max-width: 80%;
+  border: 2px solid #EE4266;
+  background-color: #fff;
+  background-image: none;
+  color: hsla(347, 83%, 60%, 1.00);
+}
+
 .na-section {
   position: relative;
   z-index: 1;
