@@ -70,29 +70,36 @@
   border-width: 1px;
   border-color: #000;
   border-radius: 30px;
-  background-color: hsla(347.44186046511624, 83.50%, 59.61%, 1.00);
-  background-image: linear-gradient(186deg, #ee4266, #e2c8e9);
+  /*background-color: hsla(347.44186046511624, 83.50%, 59.61%, 1.00);
+  background-image: linear-gradient(186deg, #ee4266, #e2c8e9); */
   color: #fff;
   font-size: 20px;
   text-align: center;
 }
 
+.button-solid.button-red {
+  background-color: #EE4266;
+}
+
 .button-solid.button-blue {
+  background-color: #2047AD;
+}
+
+.button-solid.button-purple {
+  background-color: #9477D1;
+}
+
+.button-solid.button-gradient-blue {
   background-color: #1c1259;
   background-image: repeating-linear-gradient(143deg, #3e5ab6, #45bfbf);
 }
 
-.button-solid.button-blue.button-next {
+.button-solid.button-gradient-blue.button-next {
   width: 200px;
   height: 40px;
   padding-top: 0px;
   font-size: 16px;
   line-height: 2.5em;
-}
-
-.button-solid.button-purple {
-  background-color: #9477d1;
-  background-image: linear-gradient(36deg, #cacaea, #9477d1);
 }
 
 .button-solid.orange {
