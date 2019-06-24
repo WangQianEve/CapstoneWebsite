@@ -105,20 +105,19 @@
 }
 
 .na-section {
+  display: flex;
+  justify-content: center;
   position: relative;
   z-index: 1;
   width: 100%;
   height: auto;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 38px;
 }
 
 .na-section.homepage-banner {
-  height: 517px;
+  height: 400px;
   background-image: url('../images/banner-bg.png');
-  background-position: 0px 0px;
   background-size: cover;
-  background-attachment: scroll;
+  color: #fff;
 }
 
 .na-section.bg-pink {
@@ -129,12 +128,15 @@
   background-color: hsla(257.64705882352933, 89.47%, 96.27%, 1.00);
 }
 
-.hp-banner-subtitle {
-  margin-left: 0px;
+#banner-content .subtitle {
   padding-top: 140px;
-  font-family: 'Open Sans', sans-serif;
   color: #fff;
-  font-size: 18px;
+}
+
+.subtitle {
+  padding-top: 100px;
+  font-size: var(--font-label);
+  color: grey;
 }
 
 .hp-banner-title {
@@ -143,11 +145,10 @@
   display: block;
   margin-top: 20px;
   margin-left: 0px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 40px;
-  line-height: 50px;
+  font-size: var(--font-page-title);
+  line-height: 2em;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   text-align: left;
 }
 
@@ -155,41 +156,33 @@
   max-width: none;
   padding-right: 0%;
   padding-left: 0%;
-  color: #fff;
+  color: #333;
   font-size: 16px;
   line-height: 1em;
 }
 
 .hp-banner-paragraph {
-  position: relative;
-  z-index: 2;
-  width: 60%;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  width: 55%;
+  margin-top: 20px;
+  font-size: var(--font-body);
   line-height: 150%;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .banner-img {
-  position: absolute;
-  left: auto;
-  top: 200px;
-  right: 5%;
-  bottom: auto;
-  z-index: 1;
-  width: auto;
+  position: relative;
+  align-self: flex-end;
+  top: -150px;
+  width: 400px;
   height: auto;
-  float: none;
-  clear: left;
 }
 
 .div-centered-v {
-  width: 100%;
-  margin-right: 0px;
-  margin-left: 0px;
-  padding: 20px 10%;
+  width: 68vw;
+  max-width: 1100px;
+  min-width: 800px;
+  display: flex;
+  flex-direction: column;
 }
 
 .div-centered-v.noedge {
@@ -204,7 +197,6 @@
 .homepage-subtitle {
   position: static;
   padding-top: 60px;
-  font-family: 'Open Sans', sans-serif;
   color: #969696;
   font-size: 16px;
 }
@@ -217,16 +209,15 @@
   bottom: 0%;
   display: inline-block;
   width: 50%;
-  font-family: 'Open Sans', sans-serif;
   color: #969696;
   font-size: 14px;
   text-align: left;
 }
 
-.homepage-title {
+.hp-title {
   padding-top: 10px;
-  color: #333;
   line-height: 1em;
+  font-size: var(--font-title);
 }
 
 .columns {
@@ -380,7 +371,6 @@
 .section-title {
   position: static;
   margin-left: 0%;
-  font-family: 'Open Sans', sans-serif;
   color: #000;
   font-size: 40px;
   line-height: 1em;
@@ -421,14 +411,12 @@
 .normal-text.page-banner-text {
   max-width: 55%;
   padding-top: 40px;
-  font-family: 'Open Sans', sans-serif;
 }
 
 .normal-text.halfway-paragraph {
   width: 800px;
   max-width: 100%;
   margin-bottom: 30px;
-  font-family: 'Open Sans', sans-serif;
   text-align: left;
 }
 
@@ -545,7 +533,6 @@
 
 .text-descript {
   width: 100%;
-  font-family: 'Open Sans', sans-serif;
   color: #4f4f4f;
   font-size: 14px;
   line-height: 1.5em;
@@ -554,7 +541,6 @@
 }
 
 .about-name {
-  font-family: 'Open Sans', sans-serif;
   color: #000;
   font-size: 18px;
   line-height: 3em;
@@ -565,7 +551,6 @@
   margin-right: 10px;
   margin-left: 0px;
   clear: none;
-  font-family: 'Open Sans', sans-serif;
   color: hsla(248.51063829787233, 68.78%, 40.20%, 1.00);
   font-size: 14px;
   line-height: 3em;
@@ -638,7 +623,6 @@
 .section-title-right {
   position: static;
   float: right;
-  font-family: 'Open Sans', sans-serif;
   color: #000;
   font-size: 40px;
   line-height: 1em;
@@ -780,7 +764,6 @@
   margin-top: 1em;
   padding-top: 1em;
   padding-bottom: 0.5em;
-  font-family: 'Open Sans', sans-serif;
   color: #333;
   font-size: 28px;
   line-height: 2em;
@@ -801,7 +784,6 @@
 .paragraph-big {
   margin-top: 2em;
   margin-bottom: 0em;
-  font-family: 'Open Sans', sans-serif;
   color: #fff;
   font-size: 18px;
   line-height: 2em;
@@ -841,7 +823,6 @@
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: #eee;
-  font-family: 'Open Sans', sans-serif;
   color: #ee4266;
   font-size: 16px;
   font-weight: 400;
@@ -852,10 +833,6 @@
   background-color: #ee4266;
   color: #fff;
   cursor: pointer;
-}
-
-.body-3 {
-  font-family: 'Open Sans', sans-serif;
 }
 
 .list {
@@ -1513,7 +1490,7 @@ html.w-mod-js *[data-ix="new-interaction"] {
 }
 
 @media (max-width: 479px) {
-  .hp-banner-subtitle {
+  .subtitle {
     padding-top: 60px;
     font-size: 16px;
   }
