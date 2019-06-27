@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3e98f2ec-3b2a-483d-a2f5-698e91ea6ff7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/CapstoneWebsite.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/concept.html" beforeDir="false" afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/concept.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/css/qians-first-project-5bbb7a.webflow.css" beforeDir="false" afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/css/qians-first-project-5bbb7a.webflow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/Asset-73x.svg" beforeDir="false" afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/Utility/trufflin_logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/banner-bg-p-1080.png" beforeDir="false" afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/homepage/banner-bg-p-1080.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/banner-bg-p-500.png" beforeDir="false" afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/homepage/banner-bg-p-500.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/banner-bg-p-800.png" beforeDir="false" afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/homepage/banner-bg-p-800.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/banner-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/homepage/banner-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/banner-illustration.png" beforeDir="false" afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/homepage/banner-illustration.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/hp-process-icon1.png" beforeDir="false" afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/homepage/hp-process-icon1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/hp-process-icon2.png" beforeDir="false" afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/homepage/hp-process-icon2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/hp-process-icon3.png" beforeDir="false" afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/homepage/hp-process-icon3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/hp-read-more.png" beforeDir="false" afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/homepage/hp-read-more.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/research.html" beforeDir="false" afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/research.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="815516">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.26" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="6" />
+          <entry key="html" value="1" />
+          <entry key="png" value="5" />
+          <entry key="svg" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="6" />
+          <entry key="HTML" value="1" />
+          <entry key="Image" value="5" />
+          <entry key="SVG" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="211" />
+          <entry key="html" value="268" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="211" />
+          <entry key="HTML" value="268" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+              <folding>
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/css/qians-first-project-5bbb7a.webflow.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="172" column="19" lean-forward="true" selection-start-line="172" selection-start-column="19" selection-end-line="172" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>bg-pink</find>
+      <find>bg-light</find>
+      <find>image-5</find>
+      <find>div-centered-v</find>
+      <find>center</find>
+      <find>footer-copyright</find>
+      <find>content_</find>
+      <find>footer_</find>
+      <find>footer</find>
+      <find>body</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/index.html" />
+        <option value="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/css/qians-first-project-5bbb7a.webflow.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CapstoneWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CapstoneWebsite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CapstoneWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CapstoneWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="5cc9c2f4e0becab92b6f851032e11261c3f58848" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CapstoneWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CapstoneWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="5cc9c2f4e0becab92b6f851032e11261c3f58848" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CapstoneWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CapstoneWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="5cc9c2f4e0becab92b6f851032e11261c3f58848" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CapstoneWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CapstoneWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="5cc9c2f4e0becab92b6f851032e11261c3f58848" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="Utility" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/Utility" />
+      <recent name="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/homepage" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e98f2ec-3b2a-483d-a2f5-698e91ea6ff7" name="Default Changelist" comment="" />
+      <created>1561654381905</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561654381905</updated>
+      <workItem from="1561654387253" duration="4760000" />
+      <workItem from="1561666227187" duration="1522000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6282000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/index.html</url>
+          <line>90</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/css/summer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/css/normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/homepage/banner-bg-p-1080.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/homepage/banner-illustration.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/homepage/banner-bg-p-500.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/Concept-banner.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/Concept-banner1.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/Concept-banner2.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/confidence.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/collaborative.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/collaborative-p-500.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/Utility/trufflin_logo.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/css/webflow.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10212">
+          <caret line="76" column="20" lean-forward="true" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
+          <folding>
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/css/qians-first-project-5bbb7a.webflow.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="172" column="19" lean-forward="true" selection-start-line="172" selection-start-column="19" selection-end-line="172" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

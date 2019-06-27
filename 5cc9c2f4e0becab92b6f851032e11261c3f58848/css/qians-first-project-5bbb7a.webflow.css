@@ -131,18 +131,18 @@
 
 .na-section.homepage-banner {
   height: 517px;
-  background-image: url('../images/banner-bg.png');
+  background-image: url('../images/homepage/banner-bg.png');
   background-position: 0px 0px;
   background-size: cover;
   background-attachment: scroll;
 }
 
-.na-section.bg-pink {
+.na-section.bg-light-purple {
   position: relative;
   z-index: 0;
   margin-top: -98px;
   padding-top: 124px;
-  background-color: hsla(257.64705882352933, 89.47%, 96.27%, 1.00);
+  background-color: #FAFAFD;
 }
 
 .hp-banner-subtitle {
@@ -225,19 +225,6 @@
   font-size: 16px;
 }
 
-.footer-copyright {
-  position: static;
-  left: 10%;
-  top: auto;
-  right: auto;
-  bottom: 0%;
-  display: inline-block;
-  width: 50%;
-  font-family: 'Open Sans', sans-serif;
-  color: #969696;
-  font-size: 14px;
-  text-align: left;
-}
 
 .homepage-title {
   padding-top: 10px;
@@ -507,8 +494,8 @@
 }
 
 .image-5 {
-  max-width: 20%;
-  float: right;
+  width: 129px;
+  height: 25px;
 }
 
 .flexblock {
@@ -1218,7 +1205,7 @@
   width: 300px;
   height: 60px;
   background-color: hsla(208.00000000000003, 82.57%, 57.25%, 0.00);
-  background-image: url('../images/hp-read-more.png');
+  background-image: url('../images/homepage/hp-read-more.png');
   background-position: 0px 0px;
   background-size: cover;
   background-attachment: scroll;
@@ -1264,9 +1251,8 @@ html.w-mod-js *[data-ix="new-interaction"] {
     -ms-flex-direction: column;
     flex-direction: column;
   }
-  .footer-copyright {
-    font-size: 14px;
-  }
+
+
   .homepage-title {
     font-size: 38px;
   }
@@ -1412,9 +1398,26 @@ html.w-mod-js *[data-ix="new-interaction"] {
     padding-right: 0%;
     padding-left: 0%;
   }
-  .footer-copyright {
+
+
+  .footer_content_wrapper {
+    position: relative;
+    left: 50%;
+    width: 600px;
+    display: inline-block;
+  }
+
+  .footer_content_wrapper img {
+    width: 130px;
+    display: inline;
+  }
+
+  .footer_content_wrapper p {
+    display: inline;
+    color: #969696;
     font-size: 14px;
   }
+
   .section-title {
     font-size: 32px;
   }
@@ -1552,10 +1555,7 @@ html.w-mod-js *[data-ix="new-interaction"] {
     padding-right: 0%;
     padding-left: 0%;
   }
-  .footer-copyright {
-    width: 30%;
-    font-size: 10px;
-  }
+
   .about-banner {
     margin-bottom: 40px;
     padding-top: 120px;
@@ -1588,9 +1588,7 @@ html.w-mod-js *[data-ix="new-interaction"] {
   .img-banner.about-banner-pic {
     max-height: none;
   }
-  .image-5 {
-    max-width: 40%;
-  }
+
   .flexblock {
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
