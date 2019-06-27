@@ -200,6 +200,15 @@
   flex-direction: column;
 }
 
+.div-centered-row {
+  width: 68vw;
+  max-width: 1100px;
+  min-width: 800px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
 .div-centered-v.noedge {
   display: -webkit-box;
   display: -webkit-flex;
@@ -227,6 +236,23 @@
   padding-top: 100px;
 }
 
+#our-client-img{
+  margin-right: 50px;
+  margin-top: 45px;
+  width: 470px;
+  height: 240px;
+}
+
+
+#our-client-description{
+  margin-top: 45px;
+}
+
+#our-client-button{
+  width: 300px;
+  height: 70px;
+
+}
 
 .columns {
   display: -webkit-box;
@@ -411,9 +437,9 @@
   min-width: auto;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #000;
-  font-size: 16px;
-  line-height: 200%;
+  color: #333333;
+  font-size: 14px;
+  line-height: 170%;
 }
 
 .normal-text.page-banner-text {
