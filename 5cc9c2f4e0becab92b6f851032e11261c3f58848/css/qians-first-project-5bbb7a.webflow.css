@@ -134,7 +134,7 @@
 .na-section.homepage-banner {
   padding-top: 100px;
   height: 400px;
-  background-image: url('../images/homepage/banner-bg.png');
+  background-image: url('../images/homepage/0-banner-bg.png');
   background-size: cover;
   color: #fff;
 }
@@ -211,17 +211,22 @@
 
 .homepage-subtitle {
   position: static;
-  padding-top: 60px;
   color: #969696;
-  font-size: 16px;
+  font-size: 12px;
 }
 
-
-.hp-title {
-  padding-top: 10px;
-  line-height: 1em;
-  font-size: var(--font-title);
+.homepage-title {
+  font-size: 36px;
+  font-weight: 600;
+  padding-top: 15px;
+  font-weight: 600;
+  height: 50px;
 }
+
+.homepage-section-wrapper{
+  padding-top: 100px;
+}
+
 
 .columns {
   display: -webkit-box;
@@ -1231,7 +1236,7 @@ html.w-mod-js *[data-ix="new-interaction"] {
 
 
   .homepage-title {
-    font-size: 38px;
+    font-size: 36px;
   }
   .columns {
     display: block;
