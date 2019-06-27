@@ -21,3 +21,14 @@
 html {
     scroll-behavior: smooth;
 }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+    --font-label: 12px;
+    --font-page-title: 28px;
+    --font-title: 24px;
+    --font-body: 14px;
+}
