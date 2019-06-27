@@ -1,4 +1,5 @@
 @import "summer.css";
+
 .utility-page-wrap {
   display: -webkit-box;
   display: -webkit-flex;
@@ -129,7 +130,9 @@
   height: auto;
 }
 
+
 .na-section.homepage-banner {
+  padding-top: 100px;
   height: 400px;
   background-image: url('../images/homepage/banner-bg.png');
   background-size: cover;
@@ -144,12 +147,7 @@
   background-color: #FAFAFD;
 }
 
-#banner-content .subtitle {
-  padding-top: 140px;
-  color: #fff;
-}
-
-.subtitle {
+.subtitle{
   padding-top: 100px;
   font-size: var(--font-label);
   color: grey;
@@ -161,11 +159,19 @@
   display: block;
   margin-top: 20px;
   margin-left: 0px;
-  font-size: var(--font-page-title);
+  font-size: 40px;
   line-height: 2em;
   font-style: normal;
   font-weight: 600;
   text-align: left;
+}
+
+.hp-banner-paragraph {
+  width: 55%;
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 300;
 }
 
 .body {
@@ -177,18 +183,11 @@
   line-height: 1em;
 }
 
-.hp-banner-paragraph {
-  width: 55%;
-  margin-top: 20px;
-  font-size: var(--font-body);
-  line-height: 150%;
-  font-weight: 300;
-}
 
 .banner-img {
   position: relative;
   align-self: flex-end;
-  top: -150px;
+  top: -110px;
   width: 400px;
   height: auto;
 }
@@ -1526,9 +1525,7 @@ html.w-mod-js *[data-ix="new-interaction"] {
   .banner-img {
     display: none;
   }
-  .div-centered-v {
-    font-size: 1em;
-  }
+
   .div-centered-v.noedge {
     padding-right: 0%;
     padding-left: 0%;
