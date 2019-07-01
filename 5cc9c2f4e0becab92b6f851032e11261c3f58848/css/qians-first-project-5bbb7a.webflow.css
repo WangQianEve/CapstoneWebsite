@@ -214,6 +214,24 @@
   text-align: left;
 }
 
+.footer-wrapper{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+}
+
+.footer-wrapper img {
+  width: 130px;
+}
+
+.footer-wrapper p {
+  color: #969696;
+  font-size: 14px;
+  margin: 20px;
+}
+
 .hp-title {
   padding-top: 10px;
   line-height: 1em;
@@ -379,6 +397,12 @@
   /*text-transform: uppercase;*/
 }
 
+.section-title-bar {
+  border-bottom: 3px solid black;
+  padding-bottom: 5px;
+  width: 15%;
+}
+
 .section-title.page-center {
   line-height: 0em;
   text-align: center;
@@ -454,7 +478,7 @@
 
 .img-banner.about-banner-pic {
   top: 0px;
-  right: -50px;
+  /*right: -50px;*/
   max-height: 550px;
   object-fit: none;
 }
