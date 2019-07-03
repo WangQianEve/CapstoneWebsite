@@ -232,6 +232,9 @@
   margin: 20px;
 }
 
+.background {
+  background-color: #F7F7FC;
+}
 .hp-title {
   padding-top: 10px;
   line-height: 1em;
@@ -378,12 +381,22 @@
   box-shadow: 0 -1px 5px 0 rgba(0, 0, 0, .05);
 }
 
-.about-banner {
+#about-banner {
   width: 50%;
   height: auto;
   margin-top: 60px;
   margin-bottom: 150px;
   padding-top: 150px;
+  margin-left: 0px;
+}
+
+#blog-text {
+  padding-bottom: 150px;
+}
+
+#learn-more img {
+  width: 300px;
+  padding-bottom: 50px;
 }
 
 .section-title {
@@ -398,9 +411,11 @@
 }
 
 .section-title-bar {
-  border-bottom: 3px solid black;
+  border-bottom: 4px solid black;
+  border-bottom-color: #9477D1;
   padding-bottom: 5px;
   width: 15%;
+  opacity: 70%;
 }
 
 .section-title.page-center {
@@ -604,6 +619,28 @@
   background: #F7F7FC;
 }
 
+.flexblock-text-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 275px;
+  min-width: 180px;
+  margin: 20px 5px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: space-around;
+  flex-wrap: wrap-reverse;
+  border-radius: 25px;
+  background: #C4C4C4;
+}
+
 .flexblock-heading {
   display: -webkit-box;
   display: -webkit-flex;
@@ -668,7 +705,22 @@
   margin-left: 5%;
   -webkit-justify-content: center;
   -ms-flex-pack: distribute;
-  justify-content: center;
+  justify-content: left;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 2%;
+}
+.flex-horizontal-container-spaced {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 5%;
+  margin-left: 5%;
+  -webkit-justify-content: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
@@ -729,6 +781,12 @@
   float: right;
 }
 
+.blog-descript-info {
+  justify-content: space-around;
+  width: 275px;
+  text-align: center;
+}
+
 .text-descript-header{
   /*padding-top: 10%;*/
   padding-bottom:3%;
@@ -751,8 +809,14 @@
 
 .section-body{
   margin: auto;
-  width: 80%;
+  /*width: 80%;*/
   justify-content: center;
+  width: 80%;
+}
+
+#blog-body {
+  background-color: #F7F7FC;
+  padding-top: 80px;
 }
 
 .link {
@@ -1471,7 +1535,7 @@ html.w-mod-js *[data-ix="new-interaction"] {
   .flex-horizontal-container {
     -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
+    justify-content: center;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -1479,7 +1543,15 @@ html.w-mod-js *[data-ix="new-interaction"] {
   .flex-horizontal-container-right {
     -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
+    justify-content: left;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .flex-horizontal-container-spaced {
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: left;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -1629,9 +1701,14 @@ html.w-mod-js *[data-ix="new-interaction"] {
   .flex-horizontal-container {
     -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
+    justify-content: center;
   }
   .flex-horizontal-container-right {
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: left;
+  }
+  .flex-horizontal-container-spaced {
     -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
     justify-content: space-around;
@@ -1778,10 +1855,16 @@ html.w-mod-js *[data-ix="new-interaction"] {
   .flex-horizontal-container {
     -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
-    justify-content: space-around;
+    justify-content: center;
   }
 
   .flex-horizontal-container-right {
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: left;
+  }
+
+    .flex-horizontal-container-spaced {
     -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
     justify-content: space-around;
