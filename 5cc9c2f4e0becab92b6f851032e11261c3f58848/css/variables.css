@@ -29,6 +29,13 @@ body {
 :root {
     --font-label: 12px;
     --font-page-title: 28px;
-    --font-title: 24px;
+    --font-page-title-home: 40px;
+    --font-title: 30px;
     --font-body: 14px;
+    --font-body-small: 12px;
+    --font-body-large: 16px;
+    --font-card-title: 20px;
+    --color-red: #EE4266;
+    --color-dark-blue: #2047AD;
+    --color-purple: #9477D1;
 }
