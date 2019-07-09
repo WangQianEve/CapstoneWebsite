@@ -1,0 +1,199 @@
+.normal-text.halfway-paragraph {
+    width: 800px;
+    max-width: 100%;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.normal-text.small-paragraph {
+    font-size: 12px;
+}
+.normal-text.right-text {
+    float: none;
+}
+
+.link {
+    margin-right: 10px;
+    margin-left: 0px;
+    clear: none;
+    color: hsla(248.51063829787233, 68.78%, 40.20%, 1.00);
+    font-size: 14px;
+    line-height: 3em;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.card {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 30px;
+    padding: 30px;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    border-radius: 20px;
+    background-color: #919191;
+}
+.card.research-card {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 0px;
+    background-image: -webkit-gradient(linear, left top, right top, from(#f57599), to(#d8c8e9));
+    background-image: linear-gradient(90deg, #f57599, #d8c8e9);
+}
+.card-block {
+    width: 500px;
+    margin-right: 20px;
+    margin-left: 20px;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+}
+
+.title {
+    margin-bottom: 1em;
+    color: #6C6C6C;
+    font-size: var(--b2);
+    line-height: 2em;
+    font-weight: 700;
+}
+.title.card-title {
+    padding-top: 0em;
+    padding-bottom: 0em;
+    color: #fff;
+    line-height: 1em;
+}
+.title.next {
+    display: inline-block;
+}
+
+.paragraph-big {
+    margin-top: 2em;
+    margin-bottom: 0em;
+    color: #fff;
+    font-size: 18px;
+    line-height: 2em;
+}
+
+.card-icon {
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+}
+
+.tabs {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 1px 4px 3px 0 hsla(0, 0%, 60%, .13);
+}
+
+.tabs-menu {
+    text-align: center;
+    cursor: pointer;
+}
+
+.tab-inpage {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #eee;
+    color: #ee4266;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.tab-inpage.w--current {
+    background-color: #ee4266;
+    color: #fff;
+    cursor: pointer;
+}
+
+.list {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.insights-number {
+    margin-bottom: 0.5em;
+    color: #ee4266;
+    font-size: 60px;
+    line-height: 1.2em;
+    font-weight: 600;
+    text-align: center;
+}
+
+.insights-pic {
+    display: block;
+    height: 100px;
+    max-width: none;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+}
+
+.hightlight-text {
+    color: #ee4266;
+    font-size: 20px;
+    line-height: 2em;
+    font-weight: 600;
+}
+
+.hightlight-text.greentext {
+    color: #21b5b5;
+}
+
+.quote {
+    width: 300px;
+    min-width: 100px;
+    margin-right: 10px;
+    padding: 10px 15px 0px;
+    border-radius: 10px;
+    background-color: hsla(0, 0%, 95%, .53);
+}
+
+.quote-text {
+    color: hsla(347.44186046511624, 83.50%, 59.61%, 0.66);
+    font-size: 12px;
+    font-style: italic;
+}
+
+.quote-text.quote-text-sign {
+    position: relative;
+    top: 0em;
+    margin-top: -10px;
+    text-align: right;
+}
+
+.oppor-title {
+    margin-bottom: 5px;
+    color: #828282;
+    line-height: 2em;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.paragraph {
+    color: #828282;
+    line-height: 2em;
+}
+
+.paragraph.inisght-list {
+    margin-bottom: 0px;
+}
+
+.paragraph.oppor-text {
+    margin-bottom: 0px;
+}
+
+.paragraph.list-text {
+    margin-bottom: 0px;
+}
+
+.small-paragraph {
+    color: #666;
+    font-size: 14px;
+    line-height: 2em;
+    font-style: italic;
+}
