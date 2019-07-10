@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e98f2ec-3b2a-483d-a2f5-698e91ea6ff7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/component-june.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/css/component-june.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/css/qians-first-project-5bbb7a.webflow.css" beforeDir="false" afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/css/qians-first-project-5bbb7a.webflow.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/homepage/0-banner-illustration.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/homepage/3-process-bar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/homepage/3-process-icon1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/homepage/3-process-icon2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/homepage/3-process-icon3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,59 +23,90 @@
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.26" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="7" />
-          <entry key="html" value="2" />
+          <entry key="css" value="11" />
+          <entry key="html" value="3" />
+          <entry key="js" value="1" />
           <entry key="png" value="5" />
           <entry key="svg" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="7" />
-          <entry key="HTML" value="2" />
+          <entry key="CSS" value="11" />
+          <entry key="HTML" value="3" />
           <entry key="Image" value="5" />
+          <entry key="JavaScript" value="1" />
           <entry key="SVG" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1403" />
-          <entry key="html" value="931" />
+          <entry key="css" value="2213" />
+          <entry key="html" value="2026" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1403" />
-          <entry key="HTML" value="931" />
+          <entry key="CSS" value="2213" />
+          <entry key="HTML" value="2026" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/index.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/component-june.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="90" column="71" lean-forward="true" selection-start-line="90" selection-start-column="71" selection-end-line="90" selection-end-column="83" />
+            <state relative-caret-position="440">
+              <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/css/component-june.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/css/qians-first-project-5bbb7a.webflow.css">
+        <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/js/summer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="362" column="24" selection-start-line="362" selection-start-column="24" selection-end-line="362" selection-end-column="24" />
-              <folding>
-                <element signature="e#28341#30973#0" />
-              </folding>
+            <state>
+              <caret column="47" lean-forward="true" selection-start-column="47" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/css/shared.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="170" column="1" selection-start-line="170" selection-start-column="1" selection-end-line="170" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/css/old-webflow.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/css/variables.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -89,12 +115,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>homepage-banner</find>
-      <find>.homepage-title {</find>
-      <find>div-centered-v</find>
-      <find>na-section</find>
-      <find>our-client-img</find>
-      <find>div-centered-row</find>
       <find>our-client-button</find>
       <find>our-cl</find>
       <find>number</find>
@@ -111,7 +131,6 @@
       <find>footer_conte</find>
       <find>footer-content-wrapper</find>
       <find>div-center-row</find>
-      <find>purple</find>
       <find>hp-process-card</find>
       <find>hp</find>
       <find>#our-client-img</find>
@@ -119,6 +138,13 @@
       <find>banner-img</find>
       <find>bar</find>
       <find>image-</find>
+      <find>right</find>
+      <find>bg</find>
+      <find>container</find>
+      <find>purple</find>
+      <find>center</find>
+      <find>active</find>
+      <find>tab-page</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -129,6 +155,8 @@
       <list>
         <option value="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/css/qians-first-project-5bbb7a.webflow.css" />
         <option value="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/index.html" />
+        <option value="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/component-june.html" />
+        <option value="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/css/component-june.css" />
       </list>
     </option>
   </component>
@@ -167,6 +195,12 @@
               <item name="5cc9c2f4e0becab92b6f851032e11261c3f58848" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CapstoneWebsite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CapstoneWebsite" type="462c0819:PsiDirectoryNode" />
+              <item name="5cc9c2f4e0becab92b6f851032e11261c3f58848" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -181,6 +215,10 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/css" />
+      <recent name="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/Utility" />
       <recent name="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/homepage" />
@@ -212,17 +250,18 @@
       <workItem from="1561666227187" duration="6016000" />
       <workItem from="1561914580910" duration="424000" />
       <workItem from="1562189628243" duration="2373000" />
+      <workItem from="1562781680466" duration="9376000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18647000" />
+    <option name="totallyTimeSpent" value="28023000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -321,7 +360,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/css/qians-first-project-5bbb7a.webflow.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
+        <state relative-caret-position="5430">
           <caret line="362" column="24" selection-start-line="362" selection-start-column="24" selection-end-line="362" selection-end-column="24" />
           <folding>
             <element signature="e#28341#30973#0" />
@@ -331,8 +370,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="90" column="71" lean-forward="true" selection-start-line="90" selection-start-column="71" selection-end-line="90" selection-end-column="83" />
+        <state relative-caret-position="1485">
+          <caret line="99" column="30" lean-forward="true" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/css/old-webflow.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/css/variables.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/css/shared.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="170" column="1" selection-start-line="170" selection-start-column="1" selection-end-line="170" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/js/summer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="47" lean-forward="true" selection-start-column="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/component-june.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/css/component-june.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
         </state>
       </provider>
     </entry>
