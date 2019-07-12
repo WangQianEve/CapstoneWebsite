@@ -174,6 +174,9 @@ body {
 .bg-light-purple{
   background-color: #FAFAFD;
 }
+.light-cyan-bg{
+  background-color: #F4FBFB;
+}
 .overflow-top {
   padding-top: 300px;
   margin-top: -300px;
@@ -387,6 +390,98 @@ body {
   width: 30px;
 }
 
+/* slideshow */
+
+.slideshow-img{
+  width: 100%;
+  margin: 20px 0;
+}
+.slideshow-img.active{
+  display: block;
+}
+.dots-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.slideshow-item {
+  display: none;
+}
+.slideshow-item.active {
+  display: flex;
+  justify-content: stretch;
+}
+.slideshow-dots {
+  cursor: pointer;
+  height: 13px;
+  width: 13px;
+  margin: 10px;
+  background-color: #DFD6F1;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.slideshow-dots.active{
+  background-color: #9477D1;
+}
+.slideshow-wrapper {
+  padding: 50px 0px;
+}
+.slideshow-button {
+  cursor: pointer;
+  width: 20px;
+  margin: 0 30px;
+}
+
+/*tabs*/
+
+button:focus {outline:0;}
+.tab-navbar {
+  width: 100%;
+  display: flex;
+  border-bottom: 2px solid #EE4266;
+  margin-bottom: 50px;
+}
+.tab-navbutton{
+  flex-grow:1;
+  height:40px;
+  color: #969696;
+  text-align: center;
+}
+.tab-navbutton.active{
+  color: #EE4266;
+  font-weight: bold;
+  border-bottom: 5px solid #EE4266;
+}
+.tab-page{
+  width: 100%;
+  display: none;
+}
+.tab-page.active{
+  display: block;
+}
+.tab-cover-image{
+  width: 100%;
+  height: 310px;
+  margin-bottom: 50px;
+}
+.tab-content{
+  display: flex;
+}
+.tab-content div{
+  flex-grow: 1;
+}
+.tab-page ul {
+  list-style: none; /* Remove default bullets */
+}
+.red-bullet li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #EE4266; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
 
 @media (max-width: 991px) {
   .button-solid {
