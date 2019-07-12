@@ -10,7 +10,7 @@
 }
 .test {
     height: 1000px;
-    border: solid black 5px;
+    /*border: solid black 5px;*/
     text-align: center;
     font-size: 60px;
 }
@@ -22,10 +22,11 @@
 
 .line {
     width: 2px;
-    height: 100px;
+    height: 80%;
+    margin-top: 20px;
+    margin-left: 5px;
     border-right: solid var(--color-light-purple) 2px;
     position: absolute;
-    margin-left: 5px;
     z-index: -1;
 }
 
