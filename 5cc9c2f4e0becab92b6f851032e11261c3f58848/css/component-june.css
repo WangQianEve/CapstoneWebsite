@@ -1,6 +1,9 @@
 @import "variables.css";
 
 
+/* tab */
+
+button:focus {outline:0;}
 
 .tab-navbar{
   width: 100%;
@@ -60,18 +63,20 @@ ul {
   margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
 
+
+/* slideshow */
+
 .light-cyan-bg{
   background-color: #F4FBFB;
 }
 
-.container.slideshow-wrapper{
+.container.colored-bg-wrapper{
   padding: 50px;
 }
 
 .slideshow-img{
-  width: 100%;
+  width: 80%;
   margin-top: 30px;
-  display: none;
 }
 
 .slideshow-img.active{
@@ -85,7 +90,7 @@ ul {
   margin-top: 10px;
 }
 
-.purple-dot {
+.slideshow-dots {
   cursor: pointer;
   height: 13px;
   width: 13px;
@@ -96,6 +101,13 @@ ul {
   transition: background-color 0.6s ease;
 }
 
-.purple-dot.active{
+.slideshow-dots.active{
   background-color: #9477D1;
+}
+
+.slideshow-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

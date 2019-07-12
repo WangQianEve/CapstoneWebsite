@@ -44,9 +44,9 @@
   <div class="container center">
 
     <div class="tab-navbar">
-      <button class="tab-navbutton active" id="tab_button1" onclick="changeTab("tab_button1")"><b2>Name 1</b2></button>
-      <button class="tab-navbutton"  id="tab_button2" onclick="changeTab("tab_button2")"><b2>Name 2</b2></button>
-      <button class="tab-navbutton"  id="tab_button3" onclick="changeTab("tab_button3")"><b2>Name 3</b2></button>
+      <button class="tab-navbutton active" id="tab_button1" onclick="changeTab('tab_button1','tab1')"><b2>Name 1</b2></button>
+      <button class="tab-navbutton"  id="tab_button2" onclick="changeTab('tab_button2','tab2')"><b2>Name 2</b2></button>
+      <button class="tab-navbutton"  id="tab_button3" onclick="changeTab('tab_button3','tab3')"><b2>Name 3</b2></button>
     </div>
 
     <div class="tab-page active" id="tab1">
@@ -71,23 +71,71 @@
       </div>
     </div>
 
+    <div class="tab-page" id="tab2">
+      <img class="tab-cover-image" src="images/research/tab-pic2.png">
+      <div class="tab-content">
+        <div>
+          <h2>Observation 3</h2>
+          <ul class="red-bullet">
+            <li>Etiam porta sem malesuada magna mollis euismod.</li>
+            <li>onec ullamcorper nulla non metus auctor fringilla.</li>
+            <li>Cum sociis natoque penatibus</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Observation 4</h2>
+          <ul class="red-bullet">
+            <li>Etiam porta sem malesuada magna mollis euismod.</li>
+            <li>onec ullamcorper nulla non metus auctor fringilla.</li>
+            <li>Cum sociis natoque penatibus</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="tab-page" id="tab3">
+      <img class="tab-cover-image" src="images/research/tab-pic3.png">
+      <div class="tab-content">
+        <div>
+          <h2>Observation 5</h2>
+          <ul class="red-bullet">
+            <li>Etiam porta sem malesuada magna mollis euismod.</li>
+            <li>onec ullamcorper nulla non metus auctor fringilla.</li>
+            <li>Cum sociis natoque penatibus</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Observation 6</h2>
+          <ul class="red-bullet">
+            <li>Etiam porta sem malesuada magna mollis euismod.</li>
+            <li>onec ullamcorper nulla non metus auctor fringilla.</li>
+            <li>Cum sociis natoque penatibus</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
 
   </div>
 </div>
 
 <!-- Carousal 2 -->
 <div class="section">
-  <div class="container light-cyan-bg slideshow-wrapper">
+  <div class="container light-cyan-bg colored-bg-wrapper">
     <h2>Concept 1</h2>
     <b2>Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus </b2>
-    <img class="slideshow-img active" src="images/research/slideshow-pic1.png">
-    <img class="slideshow-img" src="images/research/slideshow-pic2.png">
-    <img class="slideshow-img" src="images/research/slideshow-pic3.png">
+    <div class="slideshow-wrapper">
+      <img class="slideshow-button" src="images/research/slideshow-left.svg" onclick="plusDivs(-1)">
+      <img class="slideshow-img" src="images/research/slideshow-pic1.png">
+      <img class="slideshow-img" src="images/research/slideshow-pic2.png">
+      <img class="slideshow-img" src="images/research/slideshow-pic3.png">
+      <img class="slideshow-button" src="images/research/slideshow-right.svg" onclick="plusDivs(+1)">
+    </div>
 
     <div class="dots-wrapper">
-      <span class="purple-dot active" onclick=""></span>
-      <span class="purple-dot" onclick=""></span>
-      <span class="purple-dot" onclick=""></span>
+      <span class="slideshow-dots" onclick=""></span>
+      <span class="slideshow-dots" onclick=""></span>
+      <span class="slideshow-dots" onclick=""></span>
     </div>
 
   </div>
@@ -102,3 +150,45 @@
 
 </body>
 </html>
+
+<script>
+    function changeTab(buttonID, tabID){
+        // button
+        var active_button = document.getElementsByClassName('tab-navbutton active');
+        if (active_button.length == 1){
+            active_button[0].classList.remove('active');
+        }
+        var target_button = document.getElementById(buttonID);
+        target_button.classList.add('active');
+
+        // tab
+        var active_tab = document.getElementsByClassName('tab-page active');
+        if (active_tab.length == 1){
+            active_tab[0].classList.remove('active');
+        }
+        var target_tab = document.getElementById(tabID);
+        target_tab.classList.add('active');
+    }
+
+    function plusDivs(n) {
+        showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+        var i;
+        var pics = document.getElementsByClassName("slideshow-img");
+        var dots = document.getElementsByClassName("slideshow-dots");
+        if (n > pics.length) {slideIndex = 1;}
+        if (n < 1) {slideIndex = pics.length;}
+        for (i = 0; i < pics.length; i++) {
+            pics[i].style.display = "none";
+            dots[i].style.backgroundColor = '#DFD6F1';
+        }
+        pics[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].style.backgroundColor = '#9477D1';
+    }
+
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+</script>
