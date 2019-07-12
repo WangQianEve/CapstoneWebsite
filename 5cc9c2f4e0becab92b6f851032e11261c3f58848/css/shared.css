@@ -30,21 +30,28 @@ body {
   font-weight: 600;
   line-height: 2em;
 }
-
-.card-title {
+.section-title-line {
+  width: 170px;
+  height: 6px;
+  border-radius: 3px;
+  margin-bottom: 50px;
+}
+.component-title {
   font-size: var(--h3);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.page-title {
+  font-size: var(--page-h1);
   line-height: 3em;
   font-weight: 600;
 }
-
-.icon {
-  width: 50px;
-  height: 50px;
-  object-fit: contain;
+.label {
+  text-transform: uppercase;
+  font-weight: 600;
 }
-
-.page-title {
-  font-size: var(--page-h1);
+.card-title {
+  font-size: var(--h3);
   line-height: 3em;
   font-weight: 600;
 }
@@ -54,18 +61,11 @@ body {
   margin-bottom: 25px;
 }
 
-.label {
-  text-transform: uppercase;
-  font-weight: 600;
+.icon {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
 }
-
-.section-title-line {
-  width: 170px;
-  height: 6px;
-  border-radius: 3px;
-  margin-bottom: 50px;
-}
-
 
 /*containers*/
 .section {
@@ -121,6 +121,9 @@ body {
 
 .space-above {
   margin-top: 30px;
+}
+.full {
+  width: 100%;
 }
 
 /*variables and small things*/
@@ -493,6 +496,53 @@ button:focus {outline:0;}
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */
   margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+/*inpage nav*/
+.inpage-nav {
+  position: fixed;
+  top: 30vh;
+  margin-left: 30px;
+}
+.inpage-nav .line {
+  width: 2px;
+  height: 80%;
+  margin-top: 20px;
+  margin-left: 5px;
+  border-right: solid var(--color-light-purple) 2px;
+  position: absolute;
+  z-index: -1;
+}
+.inpage-nav a .dot{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: solid var(--color-purple) 2px;
+  background-color: white;
+  margin-right: 10px;
+}
+.inpage-nav a.active .dot{
+  width: 12px;
+  height: 12px;
+  background-color: var(--color-purple);
+}
+.inpage-nav a .nav-section{
+  color: #999;
+}
+.inpage-nav a.active .nav-section{
+  color: #000;
+}
+.inpage-nav a{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+.test {
+  height: 1000px;
+  /*border: solid black 5px;*/
+  text-align: center;
+  font-size: 60px;
 }
 
 @media (max-width: 991px) {
