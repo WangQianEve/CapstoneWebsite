@@ -81,6 +81,11 @@ body {
   border: 2px solid #E7E7E7;
   display: flex;
 }
+.card-title {
+  font-size: var(--h3);
+  font-weight: 600;
+  line-height: 3em;
+}
 
 .icon {
   width: 50px;
@@ -1001,9 +1006,6 @@ button:focus {outline:0;}
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-  }
-  .title.card-title {
-    text-align: center;
   }
   .card-icon {
     -webkit-align-self: auto;
