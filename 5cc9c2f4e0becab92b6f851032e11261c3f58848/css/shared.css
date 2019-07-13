@@ -30,12 +30,6 @@ body {
   font-weight: 600;
   line-height: 2em;
 }
-.section-title-line {
-  width: 170px;
-  height: 6px;
-  border-radius: 3px;
-  margin-bottom: 50px;
-}
 .component-title {
   font-size: var(--h3);
   text-transform: uppercase;
@@ -45,6 +39,7 @@ body {
   font-size: var(--page-h1);
   line-height: 3em;
   font-weight: 600;
+<<<<<<< HEAD
 }
 .label {
   text-transform: uppercase;
@@ -59,6 +54,49 @@ body {
 .card-text{
   font-size: var(--b3);
   margin-bottom: 25px;
+=======
+}
+.section-title-line {
+  width: 170px;
+  height: 6px;
+  border-radius: 3px;
+  margin-bottom: 50px;
+}
+.label {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+.card-icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 30px;
+  align-self: flex-start;
+  flex-grow: 0;
+}
+
+.card {
+  border-radius: 6px;
+  box-shadow: 1px 1px 8px 0 #d9d9d9;
+}
+.card-text{
+  font-size: var(--b3);
+  margin-bottom: 25px;
+}
+.card-style1 {
+  padding: 30px;
+  border: 2px solid #E7E7E7;
+  display: flex;
+>>>>>>> origin/component-library-yingli
 }
 
 .icon {
@@ -94,17 +132,16 @@ body {
 }
 .even-wrapper{
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
 }
-
+.even-wrapper > div {
+  width: 100%;
+}
 .hp-process-card-wrapper {
   margin: 0 10px;
   align-self: stretch;
   padding: 30px;
   border: 3px none #000;
   background-color: #fff;
-  box-shadow: 1px 1px 8px 0 #d9d9d9;
   display: flex;
   flex-direction: column;
 }
@@ -119,11 +156,23 @@ body {
   padding: 30px 0;
 }
 
+.no-padding.smaller-section {
+  padding: 0px 0;
+}
+
 .space-above {
   margin-top: 30px;
 }
+<<<<<<< HEAD
 .full {
   width: 100%;
+=======
+.h-padding {
+  padding: 0 2%;
+}
+.v-padding {
+  padding: 2% 0;
+>>>>>>> origin/component-library-yingli
 }
 
 /*variables and small things*/
@@ -178,9 +227,18 @@ body {
 .bg-light-purple{
   background-color: #FAFAFD;
 }
+<<<<<<< HEAD
 .light-cyan-bg{
   background-color: #F4FBFB;
 }
+=======
+.bg-light-blue {
+  background-color: #F4FBFB;
+}
+.bg-white {
+  background-color: white;
+}
+>>>>>>> origin/component-library-yingli
 .overflow-top {
   padding-top: 300px;
   margin-top: -300px;
@@ -369,9 +427,9 @@ body {
   flex-shrink: 0;
 }
 .quote-bubble {
-  padding: 30px;
-  border-radius: 25px;
-  background: #F7F7FC;
+  padding: 2%;
+  border-radius: 6px;
+  width: 100%;
 }
 .big-quote {
   font-style: italic;
@@ -405,6 +463,7 @@ body {
   width: 30px;
 }
 
+<<<<<<< HEAD
 /* slideshow */
 
 .slideshow-img{
@@ -543,6 +602,23 @@ button:focus {outline:0;}
   /*border: solid black 5px;*/
   text-align: center;
   font-size: 60px;
+=======
+/*arrow & textbox*/
+.arrow-text {
+  padding: 0 20px;
+}
+.space {
+  flex-grow: 1;
+}
+.hline {
+  align-self: center;
+  border: 1px solid #ddd;
+}
+.text-box {
+  background-image: url("../images/textbox.png");
+  background-size: 100% 100%;
+  padding: 3vw 20px 20px;
+>>>>>>> origin/component-library-yingli
 }
 
 @media (max-width: 991px) {
@@ -799,7 +875,7 @@ button:focus {outline:0;}
     -ms-flex-align: center;
     align-items: center;
   }
-  .card.research-card {
+  .card.card-style1 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -945,7 +1021,7 @@ button:focus {outline:0;}
     -ms-flex-align: center;
     align-items: center;
   }
-  .card.research-card {
+  .card.card-style1 {
     padding-top: 10px;
     padding-right: 10px;
     padding-left: 10px;

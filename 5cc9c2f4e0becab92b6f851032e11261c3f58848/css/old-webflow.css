@@ -33,7 +33,7 @@
     border-radius: 20px;
     background-color: #919191;
 }
-.card.research-card {
+.card.card-style1 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
