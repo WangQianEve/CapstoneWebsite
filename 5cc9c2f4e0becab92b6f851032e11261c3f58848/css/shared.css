@@ -39,22 +39,6 @@ body {
   font-size: var(--page-h1);
   line-height: 3em;
   font-weight: 600;
-<<<<<<< HEAD
-}
-.label {
-  text-transform: uppercase;
-  font-weight: 600;
-}
-.card-title {
-  font-size: var(--h3);
-  line-height: 3em;
-  font-weight: 600;
-}
-
-.card-text{
-  font-size: var(--b3);
-  margin-bottom: 25px;
-=======
 }
 .section-title-line {
   width: 170px;
@@ -96,7 +80,6 @@ body {
   padding: 30px;
   border: 2px solid #E7E7E7;
   display: flex;
->>>>>>> origin/component-library-yingli
 }
 
 .icon {
@@ -163,16 +146,12 @@ body {
 .space-above {
   margin-top: 30px;
 }
-<<<<<<< HEAD
 .full {
   width: 100%;
-=======
+}
+
 .h-padding {
   padding: 0 2%;
-}
-.v-padding {
-  padding: 2% 0;
->>>>>>> origin/component-library-yingli
 }
 
 /*variables and small things*/
@@ -227,18 +206,12 @@ body {
 .bg-light-purple{
   background-color: #FAFAFD;
 }
-<<<<<<< HEAD
-.light-cyan-bg{
-  background-color: #F4FBFB;
-}
-=======
-.bg-light-blue {
+.bg-light-blue{
   background-color: #F4FBFB;
 }
 .bg-white {
   background-color: white;
 }
->>>>>>> origin/component-library-yingli
 .overflow-top {
   padding-top: 300px;
   margin-top: -300px;
@@ -463,7 +436,6 @@ body {
   width: 30px;
 }
 
-<<<<<<< HEAD
 /* slideshow */
 
 .slideshow-img{
@@ -602,7 +574,8 @@ button:focus {outline:0;}
   /*border: solid black 5px;*/
   text-align: center;
   font-size: 60px;
-=======
+}
+
 /*arrow & textbox*/
 .arrow-text {
   padding: 0 20px;
@@ -618,7 +591,6 @@ button:focus {outline:0;}
   background-image: url("../images/textbox.png");
   background-size: 100% 100%;
   padding: 3vw 20px 20px;
->>>>>>> origin/component-library-yingli
 }
 
 @media (max-width: 991px) {
