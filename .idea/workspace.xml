@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e98f2ec-3b2a-483d-a2f5-698e91ea6ff7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/research.html" beforeDir="false" afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/research.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/about.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,11 +20,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/research.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="242">
-                  <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+                  <caret line="20" column="59" lean-forward="true" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
                   <folding>
                     <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -226,6 +224,15 @@
                     <element signature="n#div#1;n#div#6;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/about.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="378">
+                  <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -566,8 +573,8 @@
       <find>tab-page</find>
       <find>slideshow</find>
       <find>dots</find>
-      <find>research methods</find>
       <find>tab-na</find>
+      <find>research methods</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -583,6 +590,7 @@
         <option value="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/css/shared.css" />
         <option value="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/index.html" />
         <option value="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/research.html" />
+        <option value="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/about.html" />
       </list>
     </option>
   </component>
@@ -674,12 +682,12 @@
       <workItem from="1562189628243" duration="2373000" />
       <workItem from="1562781680466" duration="9436000" />
       <workItem from="1562935505091" duration="2718000" />
-      <workItem from="1563201217071" duration="7004000" />
+      <workItem from="1563201217071" duration="7105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37805000" />
+    <option name="totallyTimeSpent" value="37906000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-153" y="-1057" width="1920" height="1057" extended-state="6" />
@@ -1064,7 +1072,7 @@
     <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/research.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+          <caret line="20" column="59" lean-forward="true" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
           <folding>
             <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#a#0;n#div#1;n#body#0;n#html#0;n#!!top" />
@@ -1264,6 +1272,13 @@
             <element signature="n#div#1;n#div#6;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
