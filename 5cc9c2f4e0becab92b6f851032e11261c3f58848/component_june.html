@@ -120,7 +120,10 @@
       <div>
         <h2>Concept 1</h2>
         <b2>Etiam porta sem malesuada magna mollis euismod. Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus </b2>
-        <img class="slideshow-img" src="images/research/slideshow-pic1.png">
+        <div class="slideshow-img-wrapper">
+          <img class="slideshow-img" src="images/research/slideshow-pic1.png">
+          <img class="expand-icon" src="images/Utility/img-expand-icon.svg">
+        </div>
         <div class="dots-wrapper">
           <span class="slideshow-dots active" onclick=""></span>
           <span class="slideshow-dots" onclick=""></span>
@@ -129,6 +132,7 @@
       </div>
       <img class="slideshow-button" src="images/research/slideshow-right.svg" onclick="showDivs(this, 1)">
     </div>
+
     <div class="slideshow-item">
       <img class="slideshow-button" src="images/research/slideshow-left.svg" onclick="showDivs(this, 0)">
       <div>
@@ -160,6 +164,13 @@
   </div>
 </div>
 
+<!-- Expanded Image-->
+<div id="expanded-img-wrapper">
+  <img id="expanded-img">
+</div>
+<script>
+    setup_expandable_img();
+</script>
 
 <!-- Footer -->
 <div class="footer-wrapper">
