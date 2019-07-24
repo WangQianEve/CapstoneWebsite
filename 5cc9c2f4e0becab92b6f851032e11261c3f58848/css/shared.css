@@ -539,6 +539,7 @@ body {
   padding-top: 100px; /* Location of the box */
   left: 0;
   top: 0;
+
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
@@ -612,6 +613,14 @@ button:focus {outline:0;}
   font-weight: bold;
   border-bottom: 5px solid #EE4266;
 }
+.tab-navbar.blue{
+  border-bottom: 2px solid #3420AD;
+}
+.tab-navbutton.blue.active{
+  color: #3420AD;
+  font-weight: bold;
+  border-bottom: 5px solid #3420AD;
+}
 .tab-page{
   width: 100%;
   display: none;
@@ -624,6 +633,7 @@ button:focus {outline:0;}
   margin-bottom: 50px;
   cursor: pointer;
   transition: 0.3s;
+  object-fit: cover;
 }
 .tab-cover-image:hover{
   opacity: 0.7;
@@ -638,13 +648,16 @@ button:focus {outline:0;}
 .tab-page ul {
   list-style: none; /* Remove default bullets */
 }
-.red-bullet li::before {
+.tab-bullet li::before {
   content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: #EE4266; /* Change the color */
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */
   margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+.tab-bullet.blue li::before{
+  color: #3420AD;
 }
 
 /*inpage nav*/
@@ -697,7 +710,7 @@ button:focus {outline:0;}
 /*arrow & textbox*/
 .arrow-text {
   padding: 0 20px;
-  color: var(--color-red);
+  /*color: var(--color-red);*/
 }
 
 .space {
@@ -791,6 +804,9 @@ ul {
   .navbar.homepage .nav-menu {
     background-color: #5E215E;
     box-shadow: none;
+  }
+  .tab-navbar.blue{
+    border-bottom: none;
   }
 
   .button-solid {

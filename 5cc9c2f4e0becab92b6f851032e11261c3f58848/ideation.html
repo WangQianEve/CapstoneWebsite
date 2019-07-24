@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CMU Liquidnet - Ideation</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/webflow.css" rel="stylesheet" type="text/css">
+    <link href="css/shared.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600&display=swap" rel="stylesheet">
+    <link href="images/Utility/trufflin_logo.png" rel="shortcut icon" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="js/summer.js" type="text/javascript"></script>
+    <script src="js/project.js" type="text/javascript"></script>
+    <script src="js/shared.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="navbar">
+    <a href="index.html" class="nav-brand"></a>
+    <nav class="nav-menu">
+        <a href="research.html">Research</a>
+        <a href="ideation.html" class="active">Ideation</a>
+        <a href="design.html" >Design</a>
+        <a href="about.html">About</a>
+        <a href="glossary.html" >Glossary</a>
+    </nav>
+    <a class="menu-button tablet-phone" onclick="openNavMenu()" style="-webkit-mask: url(images/menu.svg); -webkit-mask-size: contain"></a>
+</div>
+</div>
+
+<div class="inpage-nav desktop">
+    <div class="line"></div>
+    <a href="#sec-overview" class="active">
+        <div class="dot"></div>
+        <div class="nav-section">Overview</div>
+    </a>
+    <a href="#sec-ideating">
+        <div class="dot"></div>
+        <div class="nav-section">Ideating</div>
+    </a>
+    <a href="#sec-concept-testing">
+        <div class="dot"></div>
+        <div class="nav-section">Concept Testing</div>
+    </a>
+    <a href="#sec-prototyping">
+        <div class="dot"></div>
+        <div class="nav-section">Prototyping</div>
+    </a>
+    <a href="#sec-takeaways">
+        <div class="dot"></div>
+        <div class="nav-section">Takeaways</div>
+    </a>
+</div>
+
+<!-- Banner -->
+<div class="banner section">
+    <img src="images/ideation/right.svg" class="bg right">
+    <img src="images/ideation/left.svg" class="bg left">
+    <div class="container">
+        <div class="page-title blue-text">Ideation</div>
+        <div class="banner-paragraph">Our team onboarded into the financial sphere using generative research. We studied the traders' day and their work environment, including interactions with software. From this work, we understood traders' needs and desires from Liquidnet's software.</div>
+    </div>
+</div>
+
+<!--Overview-->
+<div id="sec-overview" class="section bg-light-purple">
+    <div class="container">
+        <div class="section-title">Overview</div>
+        <div class="section-title-line red-bg"></div>
+        <div class="smaller-section flex-h">In this phase, we collected information about our users and "dark-pool institutional trading", which Liquidnet specializes in. Our work focused on understanding the trader (our user) and their technology (the Liquidnet 5 product).</div>
+        <div class="card card-style1 smaller-section">
+            <img src="images/research/problem-icon.svg" alt="" class="card-icon">
+            <div class="">
+                <div class="h2">Problem</div>
+                <p class="paragraph-big">We need to understand the trader's daily interactions, both good and bad, with Liquidnet.</p>
+            </div>
+            <img src="images/research/challenge-icon.svg" alt="" class="card-icon">
+            <div class="">
+                <div class="h2">Challenge</div>
+                <p class="paragraph-big">Our team had to understand Liquidnet 5 well enough level to design for Liquidnet’s future, without knowing every detail of it.</p>
+            </div>
+        </div>
+        <div class="h2 smaller-section">Research Journey</div>
+        <div class="flex-h">The team began learning about the average trader's lifestyle and technology usage. Once we had a better understanding of a traders, we studied Liquidnet's software, Liquidnet 5. Finally, we examined the current possible features and actions within Liquidnet 5.</div>
+        <!--arrows-->
+        <div class="smaller-section">
+            <div class="flex-h even-wrapper full desktop">
+                <div class="flex-h">
+                    <div class="space"></div>
+                    <div class="arrow-text h3 text-center">Users</div>
+                    <div class="space hline"></div>
+                </div>
+                <div class="flex-h">
+                    <div class="space hline"></div>
+                    <div class="arrow-text h3 text-center">Product</div>
+                    <div class="space hline"></div>
+                </div>
+                <div class="flex-h">
+                    <div class="space hline"></div>
+                    <div class="arrow-text h3 text-center">Users + Product</div>
+                    <div class="space"></div>
+                </div>
+            </div>
+            <div class="flex-h even-wrapper full tablet-phone-v">
+                <div class="arrow-text h3 text-center tablet-phone">Users</div>
+                <div class="text-box">Many trader types emerged as we studied trader's priorities and metrics for success, with varying Liquidnet usage.</div>
+                <div class="arrow-text h3 text-center tablet-phone">Product</div>
+                <div class="text-box">We examined Liquidnet 5 to understand its current use. Different styles of usage emerged across user types.</div>
+                <div class="arrow-text h3 text-center tablet-phone">User + Product</div>
+                <div class="text-box">The user types found earlier matched different interactions with Liquidnet's front-end and back-end software.</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="sec-ideating" class="section">
+    <div class="container">
+        <div class="section-title">Ideating</div>
+        <div class="section-title-line red-bg"></div>
+        <div class="smaller-section">Traders are core to Liquidnet's success - they execute trades, they analyze research, and they develop algorithms, all benefitting Liquidnet. Understanding trader’s goals and needs tells us where Liquidnet should target traders.</div>
+        <!-- Carousal 2 -->
+        <div class="section">
+            <div class="container bg-light-blue slideshow-wrapper">
+                <div class="slideshow-item active">
+                    <img class="slideshow-button" src="images/research/slideshow-left.svg" onclick="showDivs(this, 2)">
+                    <div>
+                        <h2>Testing Urgency</h2>
+                        <b2>Our visuals demo tests for urgency. Topics covered are color, animation, and sound. We tested a low, medium, and 2 high priority alerts.</b2>
+                        <div class="slideshow-img-wrapper">
+                            <img class="slideshow-img" src="images/design/urgency.svg">
+                            <img class="expand-icon" src="images/Utility/img-expand-icon.svg">
+                        </div>
+                        <div class="dots-wrapper">
+                            <span class="slideshow-dots active" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                        </div>
+                    </div>
+                    <img class="slideshow-button" src="images/research/slideshow-right.svg" onclick="showDivs(this, 1)">
+                </div>
+
+                <div class="slideshow-item">
+                    <img class="slideshow-button" src="images/research/slideshow-left.svg" onclick="showDivs(this, 0)">
+                    <div>
+                        <h2>Ambient Animations</h2>
+                        <b2>Ambient animation for graphs shows current state. Ambient animation for orders shows order progress. We planned to ask users about other areas of use.</b2>
+                        <img class="slideshow-img" src="images/research/slideshow-pic2.png">
+                        <div class="dots-wrapper">
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots active" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                        </div>
+                    </div>
+                    <img class="slideshow-button" src="images/research/slideshow-right.svg" onclick="showDivs(this, 2)">
+                </div>
+                <div class="slideshow-item">
+                    <img class="slideshow-button" src="images/research/slideshow-left.svg" onclick="showDivs(this, 1)">
+                    <div>
+                        <h2>Virtual Assistant</h2>
+                        <b2>Focused on information disclosure and customization. Traders find necessary info before executing action. Then, traders customize alerts to prompt action later.</b2>
+                        <img class="slideshow-img" src="images/research/slideshow-pic3.png">
+                        <div class="dots-wrapper">
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots active" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                        </div>
+                    </div>
+                    <img class="slideshow-button" src="images/research/slideshow-right.svg" onclick="showDivs(this, 3)">
+                </div>
+                <div class="slideshow-item">
+                    <img class="slideshow-button" src="images/research/slideshow-left.svg" onclick="showDivs(this, 2)">
+                    <div>
+                        <h2>Space-saving Bubble</h2>
+                        <b2>This design was an unconventional, futuristic take. We wanted to challenge the current visual standard. We tested call-to-action through bubble alerts.</b2>
+                        <img class="slideshow-img" src="images/research/slideshow-pic3.png">
+                        <div class="dots-wrapper">
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots active" onclick=""></span>
+                        </div>
+                    </div>
+                    <img class="slideshow-button" src="images/research/slideshow-right.svg" onclick="showDivs(this, 0)">
+                </div>
+            </div>
+        </div>
+        <div class="smaller-section h2">How do we know about the user?</div>
+        <div class="smaller-section space-above component-title red-text">RESEARCH METHODS</div>
+        <div>Only a few niche traders use Liquidnet or take part in dark-pool trading. As such, our team used generative research to understand the elusive dark-pool traders and proxy users that experience trading-esque work. Through these activities, we learned how traders think and act on the job.</div>
+        <!-- Carousel 1 -->
+        <div class="section">
+            <div class="carousel">
+                <div class="tab-navbar">
+                    <button class="tab-navbutton active" onclick="changeTab(this, 0)"><b2>Interviews</b2></button>
+                    <button class="tab-navbutton"  onclick="changeTab(this, 1)"><b2>Collaborative Sketching</b2></button>
+                    <button class="tab-navbutton"  onclick="changeTab(this, 2)"><b2>Contextual Inquiry</b2></button>
+                    <button class="tab-navbutton"  onclick="changeTab(this, 3)"><b2>Role Playing</b2></button>
+                </div>
+                <div class="tab-page active">
+                    <img class="tab-cover-image" src="images/research/interview.jpg">
+                    <div class="tab-content">
+                        <div>
+                            <div class="label grey-text">Observation 1</div>
+                            <div class="h3">Understanding context</div>
+                            <ul class="tab-bullet">
+                                <li>Poker: knowing more information allows for strategy</li>
+                                <li>Broker game: risk and safety are active choices</li>
+                                <li>Both: failure is crushing, even when predictable</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <div class="label grey-text">Observation 2</div>
+                            <div class="h3">Strategy and balance </div>
+                            <ul class="tab-bullet">
+                                <li>Poker: strategy management is mentally challenging</li>
+                                <li>Broker game: good choices can become bad quickly</li>
+                                <li>Both: strategy will outdo chance and luck if followed</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-page">
+                    <img class="tab-cover-image" src="images/research/collaborative-sketching.jpg">
+                    <div class="tab-content">
+                        <div>
+                            <div class="label grey-text">Observation 1</div>
+                            <div class="h3">Trades are an action stream</div>
+                            <ul class="tab-bullet">
+                                <li>Institutional trades change throughout the day</li>
+                                <li>Change in news, pricing, and market are monitored</li>
+                                <li>Traders are prepared to change actions mid-stream</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <div class="label grey-text">Observation 2</div>
+                            <div class="h3">Three phases of a trader's day</div>
+                            <ul class="tab-bullet">
+                                <li>Open: Traders input their day's trades, hectic time</li>
+                                <li>Mid: Most calm, ideal for smaller mid-stream actions</li>
+                                <li>Close: Pressure rises to finish trades and report work</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-page">
+                    <img class="tab-cover-image" src="images/research/poker.png">
+                    <div class="tab-content">
+                        <div>
+                            <div class="label grey-text">Observation 1</div>
+                            <div class="h3">Poker is analogous to trading</div>
+                            <ul class="tab-bullet">
+                                <li>Poker is often training for incoming traders</li>
+                                <li>The pace and mental load of poker mimics trading</li>
+                                <li>In-game planning mimics the portfolio management</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <div class="label grey-text">Observation 2</div>
+                            <div class="h3">Poker players struggle like traders</div>
+                            <ul class="tab-bullet">
+                                <li>Players need to recover and gain emotional balance</li>
+                                <li>Most time is spent disengaged from the game itself</li>
+                                <li>More engagement can build positive feelings on wins</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-page">
+                    <img class="tab-cover-image" src="images/research/bestbroker.png">
+                    <div class="tab-content">
+                        <div>
+                            <div class="label grey-text">Observation 1</div>
+                            <div class="h3">Understanding context</div>
+                            <ul class="tab-bullet">
+                                <li>Poker: knowing more information allows for strategy</li>
+                                <li>Broker game: risk and safety are active choices</li>
+                                <li>Both: failure is crushing, even when predictable</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <div class="label grey-text">Observation 2</div>
+                            <div class="h3">Strategy and balance </div>
+                            <ul class="tab-bullet">
+                                <li>Poker: strategy management is mentally challenging</li>
+                                <li>Broker game: good choices can become bad quickly</li>
+                                <li>Both: strategy will outdo chance and luck if followed</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="smaller-section component-title red-text">SYNTHESIS</div>
+        <div>After gathering a considerable amount of generative data on traders, our team synthesized findings by using the following techniques. These maps and graphs helped us collect insights and communicate our research findings with ease to our clients.</div>
+        <!-- Carousal 2 -->
+        <div class="section">
+            <div class="container bg-light-blue slideshow-wrapper">
+                <div class="slideshow-item active">
+                    <img class="slideshow-button" src="images/research/slideshow-left.svg" onclick="showDivs(this, 2)">
+                    <div>
+                        <h2>Testing Urgency</h2>
+                        <b2>Our visuals demo tests for urgency. Topics covered are color, animation, and sound. We tested a low, medium, and 2 high priority alerts.</b2>
+                        <div class="slideshow-img-wrapper">
+                            <img class="slideshow-img" src="images/design/urgency.svg">
+                            <img class="expand-icon" src="images/Utility/img-expand-icon.svg">
+                        </div>
+                        <div class="dots-wrapper">
+                            <span class="slideshow-dots active" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                        </div>
+                    </div>
+                    <img class="slideshow-button" src="images/research/slideshow-right.svg" onclick="showDivs(this, 1)">
+                </div>
+
+                <div class="slideshow-item">
+                    <img class="slideshow-button" src="images/research/slideshow-left.svg" onclick="showDivs(this, 0)">
+                    <div>
+                        <h2>Ambient Animations</h2>
+                        <b2>Ambient animation for graphs shows current state. Ambient animation for orders shows order progress. We planned to ask users about other areas of use.</b2>
+                        <img class="slideshow-img" src="images/research/slideshow-pic2.png">
+                        <div class="dots-wrapper">
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots active" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                        </div>
+                    </div>
+                    <img class="slideshow-button" src="images/research/slideshow-right.svg" onclick="showDivs(this, 2)">
+                </div>
+                <div class="slideshow-item">
+                    <img class="slideshow-button" src="images/research/slideshow-left.svg" onclick="showDivs(this, 1)">
+                    <div>
+                        <h2>Virtual Assistant</h2>
+                        <b2>Focused on information disclosure and customization. Traders find necessary info before executing action. Then, traders customize alerts to prompt action later.</b2>
+                        <img class="slideshow-img" src="images/research/slideshow-pic3.png">
+                        <div class="dots-wrapper">
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots active" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                        </div>
+                    </div>
+                    <img class="slideshow-button" src="images/research/slideshow-right.svg" onclick="showDivs(this, 3)">
+                </div>
+                <div class="slideshow-item">
+                    <img class="slideshow-button" src="images/research/slideshow-left.svg" onclick="showDivs(this, 2)">
+                    <div>
+                        <h2>Space-saving Bubble</h2>
+                        <b2>This design was an unconventional, futuristic take. We wanted to challenge the current visual standard. We tested call-to-action through bubble alerts.</b2>
+                        <img class="slideshow-img" src="images/research/slideshow-pic3.png">
+                        <div class="dots-wrapper">
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots active" onclick=""></span>
+                        </div>
+                    </div>
+                    <img class="slideshow-button" src="images/research/slideshow-right.svg" onclick="showDivs(this, 0)">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--Concept Testing-->
+<div id="sec-product" class="section bg-light-purple">
+    <div class="container">
+        <div class="section-title">Product</div>
+        <div class="section-title-line red-bg"></div>
+        <div class="smaller-section">With a better understanding of traders' work, our team studied the Liquidnet software. We learned about the target customers and the features marketed towards them. Then, we compared the target to the actual users of Liquidnet.</div>
+        <!--        item-->
+        <div class="smaller-section container flex-h mobile-v">
+            <img src="images/research/trading-team-square.jpg" class="flexblock-headshot image left"/>
+            <div class="quote-bubble bg-white">
+                <div class="card-title">Customers</div>
+                <div class="flex-h">
+                    <div class="b3">An entire company or a single trader may purchase Liquidnet for their trading teams. When interacting wtih the customer, Liquidnet must keep the customer’s portfolio in mind.</div>
+                </div>
+            </div>
+        </div>
+        <div class="smaller-section container flex-h mobile-v">
+            <img src="images/research/features.png" class="flexblock-headshot image left"/>
+            <div class="quote-bubble bg-white">
+                <div class="card-title">Features</div>
+                <div class="flex-h">
+                    <div class="b3">Liquidnet has acquired analytics technology to build upon its order management and execution software. They want their customers to do more than execute trades on Liquidnet.</div>
+                </div>
+            </div>
+        </div>
+        <div class="smaller-section container flex-h mobile-v">
+            <img src="images/research/trader.jpg" class="flexblock-headshot image left"/>
+            <div class="quote-bubble bg-white">
+                <div class="card-title">Users</div>
+                <div class="flex-h">
+                    <div class="b3">The actual users of Liquidnet often avoid the front-end product and features. Traders want tools to be easily learned and their value apparent, not hidden behind a stream of actions.</div>
+                </div>
+            </div>
+        </div>
+        <div class="smaller-section h2">How do we know about the product?</div>
+        <div class="smaller-section component-title red-text">RESEARCH METHODS</div>
+        <div>We are a group of 5 Carnegie Mellon University students studying in the Master of Human-Computer Interaction program, which is under the School of Computer Science. To find out more about us and our client, go to About page.</div>
+        <!-- Carousal 1 -->
+        <div class="section">
+            <div class="carousel">
+                <div class="tab-navbar">
+                    <button class="tab-navbutton active" onclick="changeTab(this, 0)"><b2>Competitive Analysis</b2></button>
+                    <button class="tab-navbutton"  onclick="changeTab(this, 1)"><b2>Sequence Modeling</b2></button>
+                    <button class="tab-navbutton"  onclick="changeTab(this, 2)"><b2>Heuristic Evaluation</b2></button>
+                </div>
+                <div class="tab-page active">
+                    <img class="tab-cover-image" src="images/research/competitor.png">
+                    <div class="tab-content">
+                        <div>
+                            <div class="h3">Competitors</div>
+                            <ul class="tab-bullet">
+                                <li>Historical preference as Liquidnet was first dark-pool</li>
+                                <li>BIDS, ITG are cheaper, but give less info and data</li>
+                                <li>This data is portfolio-related, like Discovery Analytics</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <div class="h3">Differences</div>
+                            <ul class="tab-bullet">
+                                <li>Competitors ask for a lower commission (cheaper)</li>
+                                <li>Liquidnet has the best liquidity as the first dark-pool</li>
+                                <li>Competitors focus on algos and quick matches</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-page">
+                    <img class="tab-cover-image" src="images/research/fi-trader-sequence-model.jpg">
+                    <div class="tab-content">
+                        <div>
+                            <div class="h3">Product and features</div>
+                            <ul class="tab-bullet">
+                                <li>Individual products interact with each other regularly</li>
+                                <li>Map of products to actions stressed common actions</li>
+                                <li>Map for each trader type showed unique workflows</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <div class="h3">Workflows</div>
+                            <ul class="tab-bullet">
+                                <li>Many workflows overlap features and products</li>
+                                <li>Mapping shows relationship between trader actions</li>
+                                <li>Active and passive trade workflows are most routine</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-page">
+                    <img class="tab-cover-image" src="images/research/heval.jpg">
+                    <div class="tab-content">
+                        <div>
+                            <div class="h3">Industry standards</div>
+                            <ul class="tab-bullet">
+                                <li>Fintech software often emulates spreadsheets</li>
+                                <li>Common colors are bright red, green and yellow</li>
+                                <li>Industry standards are the same as a decade ago</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <div class="h3">Design standards</div>
+                            <ul class="tab-bullet">
+                                <li>Many visual heuristics were not met by Liquidnet 5</li>
+                                <li>Color and iconography will make use more intuitive</li>
+                                <li>Visual hierarchy must guide trader through workflow </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="smaller-section component-title red-text">SYNTHESIS</div>
+        <div>Many traders already feel overwhelmed by their job, and their software doesn't help. Traders have cognitive and emotional overload from feature fear and difficult UI experiences.</div>
+        <!-- Carousal 1 -->
+        <div class="section">
+            <div class="carousel">
+                <div class="tab-navbar">
+                    <button class="tab-navbutton active" onclick="changeTab(this, 0)"><b2>Product Usability</b2></button>
+                    <button class="tab-navbutton"  onclick="changeTab(this, 1)"><b2>Using Trading Software</b2></button>
+                    <button class="tab-navbutton"  onclick="changeTab(this, 2)"><b2>Emotions and Stress</b2></button>
+                </div>
+                <div class="tab-page active">
+                    <img class="tab-cover-image" src="images/research/tab-pic2.png">
+                    <div class="tab-content">
+                        <div>
+                            <div class="h3">Workflow overload</div>
+                            <ul class="tab-bullet">
+                                <li>Traders typically master a workflow and stick to it</li>
+                                <li>Connected workflows are not highlighted visually</li>
+                                <li>Thus, traders are reluctant to learn new workflows</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <div class="h3">Finding features</div>
+                            <ul class="tab-bullet">
+                                <li>Due to of visual clutter, new features are hard to find</li>
+                                <li>No in-app help means traders must call sales for help</li>
+                                <li>'Hidden features' in blotter are unused and unseen</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-page">
+                    <img class="tab-cover-image" src="images/research/tab-pic1.png">
+                    <div class="tab-content">
+                        <div>
+                            <div class="h3">Juggling workflows</div>
+                            <ul class="tab-bullet">
+                                <li>Traders have to juggle many workflows and data</li>
+                                <li>Traders have to shift workflows based on market</li>
+                                <li>Allowing the trader to change action should be easy</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <div class="h3">Finding liquidity</div>
+                            <ul class="tab-bullet">
+                                <li>Traders inherently will use competing applications</li>
+                                <li>Liquidity offerings can change trader's app usage</li>
+                                <li>Liquidnet needs to convince traders to stay with them</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-page">
+                    <img class="tab-cover-image" src="images/research/tab-pic2.png">
+                    <div class="tab-content">
+                        <div>
+                            <div class="h3">Information overload</div>
+                            <ul class="tab-bullet">
+                                <li>Poor visual design and hierarchy can confuse traders</li>
+                                <li>If traders can't execute trades, they'll use competitor</li>
+                                <li>Showing liquidity opportunity with info keeps trades</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <div class="h3">What's worth showing?</div>
+                            <ul class="tab-bullet">
+                                <li>Screen real estate is extremely valuable and limited</li>
+                                <li>What isn't seen isn't used or known to traders</li>
+                                <li>When and what info is shown can convince trader to act</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="sec-prototyping" class="section">
+    <div class="container">
+        <div class="section-title">Ideating</div>
+        <div class="section-title-line red-bg"></div>
+        <div class="smaller-section">Traders are core to Liquidnet's success - they execute trades, they analyze research, and they develop algorithms, all benefitting Liquidnet. Understanding trader’s goals and needs tells us where Liquidnet should target traders.</div>
+        <!-- Carousal 2 -->
+        <div class="section">
+            <div class="container bg-light-blue slideshow-wrapper">
+                <div class="slideshow-item active">
+                    <img class="slideshow-button" src="images/research/slideshow-left.svg" onclick="showDivs(this, 2)">
+                    <div>
+                        <h2>Testing Urgency</h2>
+                        <b2>Our visuals demo tests for urgency. Topics covered are color, animation, and sound. We tested a low, medium, and 2 high priority alerts.</b2>
+                        <div class="slideshow-img-wrapper">
+                            <img class="slideshow-img" src="images/design/urgency.svg">
+                            <img class="expand-icon" src="images/Utility/img-expand-icon.svg">
+                        </div>
+                        <div class="dots-wrapper">
+                            <span class="slideshow-dots active" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                        </div>
+                    </div>
+                    <img class="slideshow-button" src="images/research/slideshow-right.svg" onclick="showDivs(this, 1)">
+                </div>
+
+                <div class="slideshow-item">
+                    <img class="slideshow-button" src="images/research/slideshow-left.svg" onclick="showDivs(this, 0)">
+                    <div>
+                        <h2>Ambient Animations</h2>
+                        <b2>Ambient animation for graphs shows current state. Ambient animation for orders shows order progress. We planned to ask users about other areas of use.</b2>
+                        <img class="slideshow-img" src="images/research/slideshow-pic2.png">
+                        <div class="dots-wrapper">
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots active" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                        </div>
+                    </div>
+                    <img class="slideshow-button" src="images/research/slideshow-right.svg" onclick="showDivs(this, 2)">
+                </div>
+                <div class="slideshow-item">
+                    <img class="slideshow-button" src="images/research/slideshow-left.svg" onclick="showDivs(this, 1)">
+                    <div>
+                        <h2>Virtual Assistant</h2>
+                        <b2>Focused on information disclosure and customization. Traders find necessary info before executing action. Then, traders customize alerts to prompt action later.</b2>
+                        <img class="slideshow-img" src="images/research/slideshow-pic3.png">
+                        <div class="dots-wrapper">
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots active" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                        </div>
+                    </div>
+                    <img class="slideshow-button" src="images/research/slideshow-right.svg" onclick="showDivs(this, 3)">
+                </div>
+                <div class="slideshow-item">
+                    <img class="slideshow-button" src="images/research/slideshow-left.svg" onclick="showDivs(this, 2)">
+                    <div>
+                        <h2>Space-saving Bubble</h2>
+                        <b2>This design was an unconventional, futuristic take. We wanted to challenge the current visual standard. We tested call-to-action through bubble alerts.</b2>
+                        <img class="slideshow-img" src="images/research/slideshow-pic3.png">
+                        <div class="dots-wrapper">
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots active" onclick=""></span>
+                        </div>
+                    </div>
+                    <img class="slideshow-button" src="images/research/slideshow-right.svg" onclick="showDivs(this, 0)">
+                </div>
+            </div>
+        </div>
+        <div class="smaller-section h2">How do we know about the user?</div>
+        <div class="smaller-section space-above component-title red-text">RESEARCH METHODS</div>
+        <div>Only a few niche traders use Liquidnet or take part in dark-pool trading. As such, our team used generative research to understand the elusive dark-pool traders and proxy users that experience trading-esque work. Through these activities, we learned how traders think and act on the job.</div>
+        <!-- Carousal 2 -->
+        <div class="section">
+            <div class="container bg-light-blue slideshow-wrapper">
+                <div class="slideshow-item active">
+                    <img class="slideshow-button" src="images/research/slideshow-left.svg" onclick="showDivs(this, 2)">
+                    <div>
+                        <h2>Testing Urgency</h2>
+                        <b2>Our visuals demo tests for urgency. Topics covered are color, animation, and sound. We tested a low, medium, and 2 high priority alerts.</b2>
+                        <div class="slideshow-img-wrapper">
+                            <img class="slideshow-img" src="images/design/urgency.svg">
+                            <img class="expand-icon" src="images/Utility/img-expand-icon.svg">
+                        </div>
+                        <div class="dots-wrapper">
+                            <span class="slideshow-dots active" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                        </div>
+                    </div>
+                    <img class="slideshow-button" src="images/research/slideshow-right.svg" onclick="showDivs(this, 1)">
+                </div>
+
+                <div class="slideshow-item">
+                    <img class="slideshow-button" src="images/research/slideshow-left.svg" onclick="showDivs(this, 0)">
+                    <div>
+                        <h2>Ambient Animations</h2>
+                        <b2>Ambient animation for graphs shows current state. Ambient animation for orders shows order progress. We planned to ask users about other areas of use.</b2>
+                        <img class="slideshow-img" src="images/research/slideshow-pic2.png">
+                        <div class="dots-wrapper">
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots active" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                        </div>
+                    </div>
+                    <img class="slideshow-button" src="images/research/slideshow-right.svg" onclick="showDivs(this, 2)">
+                </div>
+                <div class="slideshow-item">
+                    <img class="slideshow-button" src="images/research/slideshow-left.svg" onclick="showDivs(this, 1)">
+                    <div>
+                        <h2>Virtual Assistant</h2>
+                        <b2>Focused on information disclosure and customization. Traders find necessary info before executing action. Then, traders customize alerts to prompt action later.</b2>
+                        <img class="slideshow-img" src="images/research/slideshow-pic3.png">
+                        <div class="dots-wrapper">
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots active" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                        </div>
+                    </div>
+                    <img class="slideshow-button" src="images/research/slideshow-right.svg" onclick="showDivs(this, 3)">
+                </div>
+                <div class="slideshow-item">
+                    <img class="slideshow-button" src="images/research/slideshow-left.svg" onclick="showDivs(this, 2)">
+                    <div>
+                        <h2>Space-saving Bubble</h2>
+                        <b2>This design was an unconventional, futuristic take. We wanted to challenge the current visual standard. We tested call-to-action through bubble alerts.</b2>
+                        <img class="slideshow-img" src="images/research/slideshow-pic3.png">
+                        <div class="dots-wrapper">
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots" onclick=""></span>
+                            <span class="slideshow-dots active" onclick=""></span>
+                        </div>
+                    </div>
+                    <img class="slideshow-button" src="images/research/slideshow-right.svg" onclick="showDivs(this, 0)">
+                </div>
+            </div>
+        </div>
+
+        <div class="smaller-section component-title red-text">SYNTHESIS</div>
+        <div>After gathering a considerable amount of generative data on traders, our team synthesized findings by using the following techniques. These maps and graphs helped us collect insights and communicate our research findings with ease to our clients.</div>
+        <!-- Carousel 1 -->
+        <div class="section">
+            <div class="carousel">
+                <div class="tab-navbar">
+                    <button class="tab-navbutton active" onclick="changeTab(this, 0)"><b2>Interviews</b2></button>
+                    <button class="tab-navbutton"  onclick="changeTab(this, 1)"><b2>Collaborative Sketching</b2></button>
+                    <button class="tab-navbutton"  onclick="changeTab(this, 2)"><b2>Contextual Inquiry</b2></button>
+                    <button class="tab-navbutton"  onclick="changeTab(this, 3)"><b2>Role Playing</b2></button>
+                </div>
+                <div class="tab-page active">
+                    <img class="tab-cover-image" src="images/research/interview.jpg">
+                    <div class="tab-content">
+                        <div>
+                            <div class="label grey-text">Observation 1</div>
+                            <div class="h3">Understanding context</div>
+                            <ul class="tab-bullet">
+                                <li>Poker: knowing more information allows for strategy</li>
+                                <li>Broker game: risk and safety are active choices</li>
+                                <li>Both: failure is crushing, even when predictable</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <div class="label grey-text">Observation 2</div>
+                            <div class="h3">Strategy and balance </div>
+                            <ul class="tab-bullet">
+                                <li>Poker: strategy management is mentally challenging</li>
+                                <li>Broker game: good choices can become bad quickly</li>
+                                <li>Both: strategy will outdo chance and luck if followed</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-page">
+                    <img class="tab-cover-image" src="images/research/collaborative-sketching.jpg">
+                    <div class="tab-content">
+                        <div>
+                            <div class="label grey-text">Observation 1</div>
+                            <div class="h3">Trades are an action stream</div>
+                            <ul class="tab-bullet">
+                                <li>Institutional trades change throughout the day</li>
+                                <li>Change in news, pricing, and market are monitored</li>
+                                <li>Traders are prepared to change actions mid-stream</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <div class="label grey-text">Observation 2</div>
+                            <div class="h3">Three phases of a trader's day</div>
+                            <ul class="tab-bullet">
+                                <li>Open: Traders input their day's trades, hectic time</li>
+                                <li>Mid: Most calm, ideal for smaller mid-stream actions</li>
+                                <li>Close: Pressure rises to finish trades and report work</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-page">
+                    <img class="tab-cover-image" src="images/research/poker.png">
+                    <div class="tab-content">
+                        <div>
+                            <div class="label grey-text">Observation 1</div>
+                            <div class="h3">Poker is analogous to trading</div>
+                            <ul class="tab-bullet">
+                                <li>Poker is often training for incoming traders</li>
+                                <li>The pace and mental load of poker mimics trading</li>
+                                <li>In-game planning mimics the portfolio management</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <div class="label grey-text">Observation 2</div>
+                            <div class="h3">Poker players struggle like traders</div>
+                            <ul class="tab-bullet">
+                                <li>Players need to recover and gain emotional balance</li>
+                                <li>Most time is spent disengaged from the game itself</li>
+                                <li>More engagement can build positive feelings on wins</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-page">
+                    <img class="tab-cover-image" src="images/research/bestbroker.png">
+                    <div class="tab-content">
+                        <div>
+                            <div class="label grey-text">Observation 1</div>
+                            <div class="h3">Understanding context</div>
+                            <ul class="tab-bullet">
+                                <li>Poker: knowing more information allows for strategy</li>
+                                <li>Broker game: risk and safety are active choices</li>
+                                <li>Both: failure is crushing, even when predictable</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <div class="label grey-text">Observation 2</div>
+                            <div class="h3">Strategy and balance </div>
+                            <ul class="tab-bullet">
+                                <li>Poker: strategy management is mentally challenging</li>
+                                <li>Broker game: good choices can become bad quickly</li>
+                                <li>Both: strategy will outdo chance and luck if followed</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!--Takeaways-->
+<div id="sec-takeaways" class="section bg-light-purple">
+    <div class="container">
+        <div class="section-title">Takeaways</div>
+        <div class="section-title-line red-bg"></div>
+        <div class="smaller-section">We are a group of 5 Carnegie Mellon University students studying in the Master of Human-Computer Interaction program, which is under the School of Computer Science. To find out more about us and our client, go to About page.</div>
+        <!--card-->
+        <div class="section">
+            <div class="card card-style1">
+                <img src="images/research/progress-icon.svg" alt="" class="card-icon">
+                <div class="ipad-bin">
+                    <img src="images/ideation/fake-icon.svg" alt="" class="card-icon-ipad">
+                    <div class="h2">Progress</div>
+                    <p class="paragraph-big">Our team redefined our project brief using the research gathered, and has the financial acumen to now design for our users. </p>
+                </div>
+                <img src="images/research/learnings-icon.svg" alt="" class="card-icon">
+                <div class="ipad-bin">
+                    <img src="images/ideation/fake-icon.svg" alt="" class="card-icon-ipad">
+                    <div class="h2">Learnings</div>
+                    <p class="paragraph-big">Due to compliance issues, we veered from user-behavior analytics design and focused on redesigning front-end components. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section container center">
+        <div class="h2">Next step in our journey:</div>
+        <img class="b1 img-button" src="images/buttons/button-ideation.svg" alt="Trufflin Logo">
+    </div>
+</div>
+
+<!-- Expanded Image-->
+<div id="expanded-img-wrapper">
+    <img id="expanded-img">
+</div>
+<script>
+    setup_expandable_img();
+</script>
+
+<!-- Footer -->
+<div class="footer-wrapper">
+    <p class="">Copyright © 2019 Designed and Coded by</p>
+    <img src="images/Utility/trufflin_logo.svg" alt="Trufflin Logo">
+</div>
+
+
+</body>
+</html>
