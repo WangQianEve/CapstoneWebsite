@@ -12,6 +12,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="js/summer.js" type="text/javascript"></script>
     <script src="js/project.js" type="text/javascript"></script>
+    <script src="js/shared.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -24,25 +25,10 @@
         <a href="about.html">About</a>
         <a href="glossary.html" >Glossary</a>
     </nav>
-    <div class="menu-button w-nav-button">
-        <div class="w-icon-nav-menu"></div>
-    </div>
-    <div id="menu-toggle">
-      <input type="checkbox"/>
-      <span></span>
-      <span></span>
-      <span></span>
-      <ul id="menu">
-        <a href="#"><li>Research</li></a>
-        <a href="#"><li>Ideation</li></a>
-        <a href="#"><li>Design</li></a>
-        <a href="#"><li>About</li></a>
-        <a href="#"><li>Glossary</li></a>
-      </ul>
-    </div>
+    <a class="menu-button tablet-phone" onclick="openNavMenu()" style="-webkit-mask: url(images/menu.svg); -webkit-mask-size: contain"></a>
   </div>
 </div>
-<div class="inpage-nav">
+<div class="inpage-nav desktop">
     <div class="line"></div>
     <a href="#sec-overview" class="active">
         <div class="dot"></div>
@@ -68,12 +54,12 @@
 
 <!-- Banner -->
 <div class="banner section">
+    <img src="images/research/right.svg" class="bg right">
+    <img src="images/research/left.svg" class="bg left">
     <div class="container">
         <div class="page-title red-text">Research</div>
         <div class="banner-paragraph">Our team onboarded into the financial sphere using generative research. We studied the traders' day and their work environment, including interactions with software. From this work, we understood traders' needs and desires from Liquidnet's software.</div>
     </div>
-    <img src="images/research/right.svg" class="bg right">
-    <img src="images/research/left.svg" class="bg left">
 </div>
 
 <!--Overview-->
@@ -84,14 +70,12 @@
         <div class="smaller-section flex-h">In this phase, we collected information about our users and "dark-pool institutional trading". Our work focused on the trader (the user) or their technology (the product).</div>
         <div class="card card-style1 smaller-section">
             <img src="images/ideation/fake-icon.svg" alt="" class="card-icon">
-            <div class="ipad-bin">
-                <img src="images/ideation/fake-icon.svg" alt="" class="card-icon-ipad">
+            <div class="">
                 <div class="h2">Problem</div>
                 <p class="paragraph-big">We need to understand the trader's daily interactions, both good and bad, with Liquidnet.</p>
             </div>
             <img src="images/ideation/fake-icon.svg" alt="" class="card-icon">
-            <div class="ipad-bin">
-                <img src="images/ideation/fake-icon.svg" alt="" class="card-icon-ipad">
+            <div class="">
                 <div class="h2">Challenge</div>
                 <p class="paragraph-big">Our team had to understand Liquidnet 5 well enough level to design for Liquidnet’s future, without knowing every detail of it.</p>
             </div>
@@ -99,8 +83,8 @@
         <div class="h2 smaller-section">Research Journey</div>
         <div class="flex-h">The team began learning about trader's lifestyles and technology. Once we had a better understanding of a trader's life, we studied Liquidnet's product. Finally, we targeted current interactions with Liquidnet 5.</div>
         <!--arrows-->
-        <div class="section">
-            <div class="container flex-h even-wrapper">
+        <div class="smaller-section">
+            <div class="flex-h even-wrapper full desktop">
                 <div class="flex-h">
                     <div class="space"></div>
                     <div class="arrow-text h3 text-center">Users</div>
@@ -117,12 +101,12 @@
                     <div class="space"></div>
                 </div>
             </div>
-            <div class="container flex-h even-wrapper">
-                <div class="arrow-text-ipad h3 text-center">Users</div>
+            <div class="flex-h even-wrapper full tablet-phone-v">
+                <div class="arrow-text h3 text-center tablet-phone">Users</div>
                 <div class="text-box">Many trader types emerged as we studied trader's priorities and metrics for success, with varying Liquidnet usage.</div>
-                <div class="arrow-text-ipad h3 text-center">Product</div>
+                <div class="arrow-text h3 text-center tablet-phone">Product</div>
                 <div class="text-box">We examined Liquidnet 5 to understand its current use. Different styles of usage emerged across user types.</div>
-                <div class="arrow-text-ipad h3 text-center">User + Product</div>
+                <div class="arrow-text h3 text-center tablet-phone">User + Product</div>
                 <div class="text-box">The user types found earlier matched different interactions with Liquidnet's front-end and back-end software.</div>
             </div>
         </div>
@@ -136,11 +120,11 @@
         <div class="section-title-line red-bg"></div>
         <div class="smaller-section">Traders are core to Liquidnet's success - they execute trades, they analyze research, and they develop algorithms, all benefitting Liquidnet. Understanding trader’s goals and needs tells us where Liquidnet should target traders.</div>
         <!--persona-->
-        <div class="smaller-section flex-h" >
+        <div class="smaller-section flex-h mobile-v" >
             <img src="images/about/nina.png" class="flexblock-headshot image left"/>
             <div>
                 <div class="card-title">Jeevan the Equity Trader</div>
-                <div class="quote-bubble flex-h even-wrapper bg-light-purple">
+                <div class="quote-bubble flex-h tablet-phone-v even-wrapper bg-light-purple">
                     <div class="h-padding">
                         <div class="b3 label light-purple-text">GOALS</div>
                         <div class="b3">As an equity trader Jeevan's goals are to improve his performance in his trades, and to create innovative trading strategies.</div>
@@ -152,11 +136,11 @@
                 </div>
             </div>
         </div>
-        <div class="smaller-section flex-h" >
+        <div class="smaller-section flex-h mobile-v" >
             <img src="images/about/nina.png" class="flexblock-headshot image left"/>
             <div>
                 <div class="card-title">Jed the Research Analyst</div>
-                <div class="quote-bubble flex-h even-wrapper bg-light-purple">
+                <div class="quote-bubble flex-h tablet-phone-v even-wrapper bg-light-purple">
                     <div class="h-padding">
                         <div class="b3 label light-purple-text">GOALS</div>
                         <div class="b3">Jed wants to provide useful insights on 'good' trading decisions, thus becoming a trusted resource for traders.</div>
@@ -168,11 +152,11 @@
                 </div>
             </div>
         </div>
-        <div class="smaller-section flex-h" >
+        <div class="smaller-section flex-h mobile-v" >
             <img src="images/about/nina.png" class="flexblock-headshot image left"/>
             <div>
                 <div class="card-title">Jane the Portfolio Manager</div>
-                <div class="quote-bubble flex-h even-wrapper bg-light-purple">
+                <div class="quote-bubble flex-h tablet-phone-v even-wrapper bg-light-purple">
                     <div class="h-padding">
                         <div class="b3 label light-purple-text">GOALS</div>
                         <div class="b3">Jane wants to achieve 'good' portfolio performance with low risk overall, as well as avoid information leakage at all costs.</div>
@@ -189,7 +173,7 @@
         <div>Only niche traders use Liquidnet or take part in dark-pool trading. As such, the team used generative research to understand the elusive dark-pool traders. Through these activities, we learned how traders think and act on the job.</div>
         <!-- Carousel 1 -->
         <div class="section">
-            <div class="container carousel">
+            <div class="carousel">
                 <div class="tab-navbar">
                     <button class="tab-navbutton active" onclick="changeTab(this, 0)"><b2>Interviews</b2></button>
                     <button class="tab-navbutton"  onclick="changeTab(this, 1)"><b2>Collaborative Sketching</b2></button>
@@ -295,7 +279,7 @@
         <div>After gathering a considerable amount of generative data on traders, our team synthesized findings by creating visualizations. These maps and graphs helped us communicate our research findings with ease.</div>
         <!-- Carousal 2 -->
         <div class="section">
-            <div class="container carousel">
+            <div class="carousel">
                 <div class="tab-navbar">
                     <button class="tab-navbutton active" onclick="changeTab(this, 0)"><b2>Stakeholder Map</b2></button>
                     <button class="tab-navbutton"  onclick="changeTab(this, 1)"><b2>Customer Journey Map</b2></button>
@@ -416,7 +400,7 @@
         <div class="section-title-line red-bg"></div>
         <div class="smaller-section">With a better understanding of traders' work, our team studied the Liquidnet software. We learned about the target customers and the features marketed towards them. Then, we compared the target to the actual users of Liquidnet.</div>
 <!--        item-->
-        <div class="smaller-section container flex-h">
+        <div class="smaller-section container flex-h mobile-v">
             <img src="images/about/nina.png" class="flexblock-headshot image left"/>
             <div class="quote-bubble bg-white">
                 <div class="card-title">Customers</div>
@@ -425,7 +409,7 @@
                 </div>
             </div>
         </div>
-        <div class="smaller-section container flex-h">
+        <div class="smaller-section container flex-h mobile-v">
             <img src="images/about/nina.png" class="flexblock-headshot image left"/>
             <div class="quote-bubble bg-white">
                 <div class="card-title">Features</div>
@@ -434,7 +418,7 @@
                 </div>
             </div>
         </div>
-        <div class="smaller-section container flex-h">
+        <div class="smaller-section container flex-h mobile-v">
             <img src="images/about/nina.png" class="flexblock-headshot image left"/>
             <div class="quote-bubble bg-white">
                 <div class="card-title">Users</div>
@@ -448,7 +432,7 @@
         <div>We are a group of 5 Carnegie Mellon University students studying in the Master of Human-Computer Interaction program, which is under the School of Computer Science. To find out more about us and our client, go to About page.</div>
         <!-- Carousal 1 -->
         <div class="section">
-            <div class="container carousel">
+            <div class="carousel">
                 <div class="tab-navbar">
                     <button class="tab-navbutton active" onclick="changeTab(this, 0)"><b2>Competitive Analysis</b2></button>
                     <button class="tab-navbutton"  onclick="changeTab(this, 1)"><b2>Sequence Modeling</b2></button>
@@ -524,7 +508,7 @@
         <div>Many traders already feel overwhelmed by their job, and their software doesn't help. Traders have cognitive and emotional overload from feature fear and difficult UI experiences.</div>
         <!-- Carousal 1 -->
         <div class="section">
-            <div class="container carousel">
+            <div class="carousel">
                 <div class="tab-navbar">
                     <button class="tab-navbutton active" onclick="changeTab(this, 0)"><b2>Product Usability</b2></button>
                     <button class="tab-navbutton"  onclick="changeTab(this, 1)"><b2>Using Trading Software</b2></button>
@@ -637,7 +621,7 @@
         <div>To collect our user and product related findings in one location, we developed a service blueprint. Each swimlane designated a different user-type, all of which use Liquidnet through unique workflows.</div>
         <!-- Carousal 1 -->
         <div class="section">
-            <div class="container carousel">
+            <div class="carousel">
                 <div class="tab-navbar">
                     <button class="tab-navbutton active" onclick="changeTab(this, 0)"><b2>In-House Feedback</b2></button>
                     <button class="tab-navbutton"  onclick="changeTab(this, 1)"><b2>Service Blueprint</b2></button>
@@ -691,12 +675,12 @@
         <div>To collect our user and product related findings in one location, we developed a service blueprint. Each swimlane designated a different user-type, all of which use Liquidnet through unique workflows.</div>
         <!-- Carousal 1 -->
         <div class="section">
-            <div class="container carousel">
+            <div class="carousel">
                 <div class="tab-navbar">
                     <button class="tab-navbutton active" onclick="changeTab(this, 0)"><b2>Walking the Wall</b2></button>
                     <button class="tab-navbutton"  onclick="changeTab(this, 1)"><b2>20 Questions</b2></button>
                     <button class="tab-navbutton"  onclick="changeTab(this, 1)"><b2>Reverse Assumptions</b2></button>
-                    <button class="tab-navbutton"  onclick="changeTab(this, 1)"><b2>Value Proposition (how might we)</b2></button>
+                    <button class="tab-navbutton"  onclick="changeTab(this, 1)"><b2>Value Proposition</b2></button>
                 </div>
                 <div class="tab-page active">
                     <img class="tab-cover-image" src="images/research/tab-pic2.png">
@@ -782,7 +766,6 @@
         <div class="smaller-section">We are a group of 5 Carnegie Mellon University students studying in the Master of Human-Computer Interaction program, which is under the School of Computer Science. To find out more about us and our client, go to About page.</div>
         <!--card-->
         <div class="section">
-            <div class="container">
                 <div class="card card-style1">
                     <img src="images/ideation/fake-icon.svg" alt="" class="card-icon">
                     <div class="ipad-bin">
@@ -797,7 +780,6 @@
                         <p class="paragraph-big">Due to compliance issues, we veered from user-behavior analytics design and focused on redesigning front-end components. </p>
                     </div>
                 </div>
-            </div>
         </div>
     </div>
     <div class="section container center">
