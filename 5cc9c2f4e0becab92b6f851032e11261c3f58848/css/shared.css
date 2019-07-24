@@ -99,6 +99,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 80px 0 60px 0;
+  width: 100%;
 }
 
 .gallery {
@@ -109,7 +110,7 @@ body {
 .container {
   width: 68vw;
   max-width: 1100px;
-  min-width: 800px;
+  /*min-width: 800px;*/
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -301,7 +302,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding-top: 150px;
-  height: 50vw;
+  height: 35vw;
 }
 .banner .bg {
   position: absolute;
@@ -508,6 +509,7 @@ body {
   padding-top: 100px; /* Location of the box */
   left: 0;
   top: 0;
+
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
@@ -588,6 +590,14 @@ button:focus {outline:0;}
   font-weight: bold;
   border-bottom: 5px solid #EE4266;
 }
+.tab-navbar.blue{
+  border-bottom: 2px solid #3420AD;
+}
+.tab-navbutton.blue.active{
+  color: #3420AD;
+  font-weight: bold;
+  border-bottom: 5px solid #3420AD;
+}
 .tab-page{
   width: 100%;
   display: none;
@@ -601,6 +611,7 @@ button:focus {outline:0;}
   margin-bottom: 50px;
   cursor: pointer;
   transition: 0.3s;
+  object-fit: cover;
 }
 .tab-cover-image:hover{
   opacity: 0.7;
@@ -615,13 +626,16 @@ button:focus {outline:0;}
 .tab-page ul {
   list-style: none; /* Remove default bullets */
 }
-.red-bullet li::before {
+.tab-bullet li::before {
   content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: #EE4266; /* Change the color */
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */
   margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+.tab-bullet.blue li::before{
+  color: #3420AD;
 }
 
 /*inpage nav*/
@@ -674,8 +688,9 @@ button:focus {outline:0;}
 /*arrow & textbox*/
 .arrow-text {
   padding: 0 20px;
-  color: var(--color-red);
+  /*color: var(--color-red);*/
 }
+
 .space {
   flex-grow: 1;
 }
@@ -689,7 +704,253 @@ button:focus {outline:0;}
   padding: 3vw 20px 20px;
 }
 
-@media (max-width: 991px) {
+.card-icon-ipad {
+  display: none;
+}
+
+.arrow-text-ipad {
+  display: none;
+}
+
+
+@media (max-width: 1000px) {
+  
+  .banner.section {
+    height: 390px;
+  }
+
+  a:hover
+{
+  color: tomato;
+}
+
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
+#menuToggle span
+{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  
+  background: #cdcdcd;
+  border-radius: 3px;
+  
+  z-index: 1;
+  
+  transform-origin: 4px 0px;
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle span:first-child
+{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2)
+{
+  transform-origin: 0% 100%;
+}
+
+/* 
+ * Transform all the slices of hamburger
+ * into a crossmark.
+ */
+#menuToggle input:checked ~ span
+{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+/*
+ * But let's hide the middle one.
+ */
+#menuToggle input:checked ~ span:nth-last-child(3)
+{
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+/*
+ * Ohyeah and the last one should go the other direction
+ */
+#menuToggle input:checked ~ span:nth-last-child(2)
+{
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+/*
+ * Make this absolute positioned
+ * at the top left of the screen
+ */
+#menu
+{
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 -50px;
+  padding: 50px;
+  padding-top: 125px;
+  
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  /* to stop flickering of text in safari */
+  
+  transform-origin: 0% 0%;
+  transform: translate(-100%, 0);
+  
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+
+#menu li
+{
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+/*
+ * And let's slide it in from the left
+ */
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+  .nav-menu {
+    display: none;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    height: 5
+  }
+  .banner .bg {
+    position: absolute;
+    top: 0;
+    width: 800px;
+    max-height: 550px;
+    max-width: 55%;
+  }
+  .banner.section {
+    padding-top: 100px;
+    /*display: block;*/
+  }
+  .banner .bg.left {
+    top: 0;
+    left: 0;
+    width: 30%;
+    display: block;
+  }
+  .banner .bg.right {
+    top: 0;
+    right: 0;
+    width: 30%;
+    display: block;
+  }
+  
+
+  .bg {
+    width: 25%;
+  }
+
+  .inpage-nav {
+    display: none;
+  }
+
+  .section-title-line red-bg {
+    margin-bottom: 0px;
+  }
+
+  .smaller-section {
+    margin-top: 0px;
+  }
+
+  .section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .hline {
+    display: none;
+  }
+
+  .container {
+    background: none;
+  }
+
+  .tab-navbar {
+    flex-direction: column;
+    border-bottom: 0px;
+  }
+
+  .arrow-text {
+    display: none;
+  }
+
+  .arrow-text-ipad {
+    display: block;
+    padding: 0 20px;
+    padding-top: 20px;
+    /*color: var(--color-red);*/
+  }
+
+  .card-icon {
+    display: none;
+  }
+
+ .card-icon-ipad {
+    display: block;
+    padding-bottom: 15px;
+  }
+
+  .ipad-bin {
+    width: 50%;
+    margin: 10px;
+  }
+
+  .banner-paragraph {
+    width: 375px;
+    padding-top: 15px;
+  }
+
   .button-solid {
     margin-top: 40px;
   }
@@ -706,7 +967,6 @@ button:focus {outline:0;}
     -ms-flex-direction: column;
     flex-direction: column;
   }
-
 
   .section-title {
     font-size: 36px;
@@ -831,9 +1091,7 @@ button:focus {outline:0;}
   .menu-button.w--open {
     background-color: #000;
   }
-  .container {
-    background-color: #fff;
-  }
+
   .nav-menu {
     background-color: #fff;
   }
