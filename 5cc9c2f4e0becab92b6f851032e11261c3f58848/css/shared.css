@@ -142,6 +142,15 @@ body {
 .container.center {
   align-items: center;
 }
+
+.container.left {
+  align-items: left;
+}
+
+.container.right {
+  align-items: flex-start;
+}
+
 .even-wrapper{
   display: flex;
 }
@@ -429,6 +438,7 @@ body {
   justify-content: flex-start;
   flex-shrink: 0;
   margin-bottom: 20px;
+  border-radius: 50%;
 }
 .quote-bubble {
   padding: 2%;
