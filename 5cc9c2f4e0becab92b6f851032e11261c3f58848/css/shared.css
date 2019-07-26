@@ -29,7 +29,7 @@ body {
 }
 /*components*/
 .button-solid {
-  padding: .5em;
+  padding: .3em;
   line-height: 2em;
   border-radius: 1.5em;
   color: #fff;
@@ -37,6 +37,12 @@ body {
   text-align: center;
   text-decoration: none;
   margin-top: auto;
+}
+
+.align-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .homepage-subtitle {
@@ -94,6 +100,7 @@ body {
 }
 .card-text{
   font-size: var(--b3);
+  margin-bottom: 30px;
 }
 .card-style1 {
   padding: 30px;
@@ -483,6 +490,7 @@ body {
 .slideshow-img-wrapper{
   position: relative;
   width: 100%;
+  margin: 20px 0;
 }
 .expand-icon{
   width: 24px;
@@ -494,7 +502,6 @@ body {
 }
 .slideshow-img{
   width: 100%;
-  margin: 20px;
   cursor: pointer;
   transition: 0.3s;
 }
@@ -653,7 +660,7 @@ button:focus {outline:0;}
 }
 .tab-content > div{
   width: 100%;
-  padding-right: 10px;
+  padding-right: 20px;
 }
 .tab-page ul {
   list-style: none; /* Remove default bullets */
@@ -885,10 +892,6 @@ ul {
 
   .card-icon {
     display: none;
-  }
-
-  .button-solid {
-    margin-top: 40px;
   }
 
   .hp-banner-paragraph {
