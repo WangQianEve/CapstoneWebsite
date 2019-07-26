@@ -437,20 +437,24 @@ body {
   color: #333333;
 }
 
+.teammate-intro {
+  flex-shrink: 0;
+  margin: 30px 0;
+}
+
 /*quote section*/
 .flexblock-headshot {
   display: flex;
   width: 145px;
   height: 145px;
   justify-content: flex-start;
-  flex-shrink: 0;
   margin-bottom: 20px;
   border-radius: 50%;
 }
 .quote-bubble {
+  margin: 30px 0;
   padding: 2%;
   border-radius: 6px;
-  width: 100%;
   background-color: var(--color-bg-light-purple);
 }
 .big-quote {
@@ -472,7 +476,8 @@ body {
   /*text-align: left;*/
 }
 .small-purple-section {
-  width: 300px;
+  width: 30%;
+  max-width: 300px;
   padding-left: 20px;
 }
 .person-links {
@@ -769,7 +774,7 @@ ul {
   }
 
   .tablet-phone {
-    display: block;
+    display: flex;
   }
 
   .banner-paragraph {
@@ -782,8 +787,8 @@ ul {
   }
 
   .flexblock-headshot {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     margin-top: 20px;
   }
 
@@ -902,6 +907,15 @@ ul {
     background-color: #ffffff22;
     color: white;
   }
+
+  .quote-bubble .flex-h {
+    flex-direction: column;
+  }
+
+  .quote-bubble .small-purple-section {
+    width: 100%;
+    padding: 0;
+  }
 }
 
 @media (max-width: 479px) {
@@ -911,6 +925,9 @@ ul {
   .section {
     padding-top: 60px;
     padding-bottom: 60px;
+  }
+  .section-title {
+    font-size: 24px;
   }
   .tab-navbutton {
     width: 100%;
