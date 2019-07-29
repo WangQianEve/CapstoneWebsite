@@ -121,7 +121,7 @@ body {
 
 /*containers*/
 .section {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   align-items: center;
   padding: 80px 0 60px 0;
@@ -425,11 +425,13 @@ body {
 }
 .project-numbers h1{
   font-weight: bold;
-  font-size: 40px;
+  font-size: 64px;
   background: -webkit-linear-gradient(#EE4266, #3420AD);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
+  margin: 0;
+  line-height: normal;
 }
 .project-numbers h2{
   font-size: 16px;
@@ -776,6 +778,22 @@ ul {
 }
 
 @media (max-width: 991px) {
+  .image.right {
+    display: none;
+  }
+
+  .image.left {
+    display: none;
+  }
+
+  .hp-img-tablet {
+    display: block;
+  }
+
+  .hp-process-bar {
+    display: none;
+  }
+
   .desktop {
     display: none;
   }
