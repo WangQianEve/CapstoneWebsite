@@ -505,6 +505,7 @@ body {
   bottom: 40px;
   right: 20px;
   color: black;
+  pointer-events: none;
 }
 .slideshow-img{
   width: 100%;
@@ -653,7 +654,7 @@ button:focus {outline:0;}
 }
 .tab-cover-image{
   width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
   cursor: pointer;
   transition: 0.3s;
   object-fit: cover;
@@ -746,7 +747,8 @@ button:focus {outline:0;}
 .text-box {
   background-image: url("../images/textbox.png");
   background-size: 100% 100%;
-  padding: 3vw 20px 20px;
+  padding: 60px 30px 30px;
+  padding-bottom: 40px;
 }
 
 .card-icon-ipad {
@@ -755,6 +757,10 @@ button:focus {outline:0;}
 
 .arrow-text-ipad {
   display: none;
+}
+
+.arrow-text.tablet-phone {
+  padding-top: 30px
 }
 
 .carousel {
@@ -779,7 +785,7 @@ ul {
   }
 
   .tablet-phone {
-    display: flex;
+    display: block;
   }
 
   .banner-paragraph {
@@ -845,6 +851,7 @@ ul {
   .text-box {
     padding-left: 40px;
     padding-right: 40px;
+    padding-top: 40px;
   }
 
   .banner.section {
