@@ -495,7 +495,7 @@ body {
   /*text-align: left;*/
 }
 .small-purple-section {
-  width: 50%;
+  width: 100%;
   max-width: 300px;
   padding-left: 20px;
 }
@@ -507,6 +507,7 @@ body {
 }
 .person-link {
   width: 30px;
+  height: 30px;
 }
 
 /* slideshow */
