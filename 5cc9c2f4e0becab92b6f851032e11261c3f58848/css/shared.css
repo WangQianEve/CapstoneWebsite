@@ -786,7 +786,8 @@ button:focus {outline:0;}
 }
 
 .arrow-text.tablet-phone {
-  padding-top: 30px
+  padding-top: 30px;
+  display: block;
 }
 
 .carousel {
@@ -808,13 +809,13 @@ ul {
     margin: 20px 0;
 }
 
-  .image.right {
+/*  .image.right {
     display: none;
   }
 
   .image.left {
     display: none;
-  }
+  }*/
 
   .hp-img-tablet {
     display: block;
@@ -833,7 +834,7 @@ ul {
   }
 
   .tablet-phone {
-    display: block;
+    display: flex;
   }
 
   .banner-paragraph {
