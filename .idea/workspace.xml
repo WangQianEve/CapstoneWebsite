@@ -2,34 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e98f2ec-3b2a-483d-a2f5-698e91ea6ff7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/about-icon1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/about-icon2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/about-icon3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/about/blog-2-pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/about/blog-3-pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/design/challenge-icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/design/learnings-icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/design/problem-icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/design/progress-icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/glossary/left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/glossary/right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/ideation/challenge-icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/ideation/learnings-icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/ideation/problem-icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/ideation/progress-icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/research/blog-2-pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/research/challenge-icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/research/learnings-icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/research/problem-icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/research/progress-icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/images/trader-success.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/css/shared.css" beforeDir="false" afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/css/shared.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/design.html" beforeDir="false" afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/design.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/glossary.html" beforeDir="false" afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/glossary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/ideation.html" beforeDir="false" afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/ideation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/research.html" beforeDir="false" afterPath="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/research.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -96,11 +70,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/design.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="154">
-                  <caret line="751" selection-start-line="751" selection-end-line="751" />
+                <state relative-caret-position="364">
+                  <caret line="758" column="19" lean-forward="true" selection-start-line="758" selection-start-column="19" selection-end-line="758" selection-end-column="19" />
                   <folding>
                     <element signature="n#head#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -139,11 +113,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="693">
-                  <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+                <state relative-caret-position="256">
+                  <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
                   <folding>
                     <element signature="n#style#0;n#a#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
@@ -208,8 +182,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/css/shared.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="319">
-                  <caret line="136" column="42" selection-start-line="136" selection-start-column="42" selection-end-line="136" selection-end-column="42" />
+                <state relative-caret-position="277">
+                  <caret line="330" column="7" selection-start-line="330" selection-start-column="7" selection-end-line="330" selection-end-column="7" />
                   <folding>
                     <element signature="e#28#57#0" />
                     <element signature="e#64#202#0" />
@@ -266,7 +240,6 @@
                     <element signature="e#3709#3741#0" />
                     <element signature="e#3756#3788#0" />
                     <element signature="e#3799#3829#0" />
-                    <element signature="e#3844#3928#0" />
                     <element signature="e#3950#4202#0" />
                     <element signature="e#4230#4388#0" />
                     <element signature="e#4407#4556#0" />
@@ -276,7 +249,6 @@
                     <element signature="e#4761#4780#0" />
                     <element signature="e#4789#4809#0" />
                     <element signature="e#4832#4852#0" />
-                    <element signature="e#4863#4984#0" />
                     <element signature="e#5005#5046#0" />
                     <element signature="e#5075#5186#0" />
                     <element signature="e#5207#5226#0" />
@@ -448,10 +420,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>bg</find>
-      <find>section</find>
-      <find>carousel</find>
-      <find>&lt;&lt;&lt;</find>
       <find>active</find>
       <find>&lt;&lt;&lt;&lt;</find>
       <find>Research Thr</find>
@@ -478,6 +446,10 @@
       <find>user+</find>
       <find>user +</find>
       <find>after user</find>
+      <find>footer</find>
+      <find>background-image</find>
+      <find>client</find>
+      <find>section</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -499,13 +471,13 @@
         <option value="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/js/shared.js" />
         <option value="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/js/project.js" />
         <option value="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/css/variables.css" />
-        <option value="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/index.html" />
         <option value="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/ideation.html" />
         <option value="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/glossary.html" />
         <option value="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/about.html" />
         <option value="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/research.html" />
         <option value="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/design.html" />
         <option value="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/css/shared.css" />
+        <option value="$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/index.html" />
       </list>
     </option>
   </component>
@@ -602,12 +574,12 @@
       <workItem from="1563341009012" duration="4864000" />
       <workItem from="1563980584669" duration="13856000" />
       <workItem from="1564162218441" duration="933000" />
-      <workItem from="1564626223822" duration="2783000" />
+      <workItem from="1564626223822" duration="3483000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64958000" />
+    <option name="totallyTimeSpent" value="65658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="56" y="23" width="1624" height="1027" extended-state="6" />
@@ -760,16 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
-          <folding>
-            <element signature="n#style#0;n#a#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/js/shared.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -851,8 +813,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/design.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="751" selection-start-line="751" selection-end-line="751" />
+        <state relative-caret-position="364">
+          <caret line="758" column="19" lean-forward="true" selection-start-line="758" selection-start-column="19" selection-end-line="758" selection-end-column="19" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -874,8 +836,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/css/shared.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="136" column="42" selection-start-line="136" selection-start-column="42" selection-end-line="136" selection-end-column="42" />
+        <state relative-caret-position="277">
+          <caret line="330" column="7" selection-start-line="330" selection-start-column="7" selection-end-line="330" selection-end-column="7" />
           <folding>
             <element signature="e#28#57#0" />
             <element signature="e#64#202#0" />
@@ -932,7 +894,6 @@
             <element signature="e#3709#3741#0" />
             <element signature="e#3756#3788#0" />
             <element signature="e#3799#3829#0" />
-            <element signature="e#3844#3928#0" />
             <element signature="e#3950#4202#0" />
             <element signature="e#4230#4388#0" />
             <element signature="e#4407#4556#0" />
@@ -942,7 +903,6 @@
             <element signature="e#4761#4780#0" />
             <element signature="e#4789#4809#0" />
             <element signature="e#4832#4852#0" />
-            <element signature="e#4863#4984#0" />
             <element signature="e#5005#5046#0" />
             <element signature="e#5075#5186#0" />
             <element signature="e#5207#5226#0" />
@@ -1086,6 +1046,16 @@
             <element signature="e#16699#16725#0" />
             <element signature="e#16684#16694#0" />
             <element signature="e#16769#16779#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5cc9c2f4e0becab92b6f851032e11261c3f58848/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="48" column="33" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
+          <folding>
+            <element signature="n#style#0;n#a#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -131,7 +131,10 @@ body {
   padding: 80px 0 60px 0;
   width: 100%;
 }
-
+.section.over {
+  position: relative;
+  z-index: 2;
+}
 .gallery {
   flex-wrap: wrap;
   justify-content: space-around !important;
@@ -268,7 +271,6 @@ body {
   padding-top: 300px;
   margin-top: -300px;
   position: relative;
-  z-index: -1;
 }
 
 /*nav bar*/
@@ -379,7 +381,7 @@ body {
   margin-top: -250px;
 }
 .homepage-banner {
-  background-image: url('../images/homepage/0-banner-bg.png');
+  background-image: url('../images/homepage/banner.svg');
   background-size: cover;
   color: #fff;
 }
