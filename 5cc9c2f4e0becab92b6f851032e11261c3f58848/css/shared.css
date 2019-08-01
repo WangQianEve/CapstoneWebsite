@@ -24,9 +24,6 @@ body {
   background-color: white;
 }
 
-.tablet-phone {
-  display: none;
-}
 /*components*/
 .button-solid {
   padding: .3em;
@@ -44,7 +41,9 @@ body {
   flex-direction: column;
   align-items: flex-end;
 }
-
+.align-right div {
+  text-align: right;
+}
 .homepage-subtitle {
   color: #969696;
   font-size: var(--b3);
@@ -87,7 +86,7 @@ body {
 }
 .card-icon {
   width: 50px;
-  height: 50px;
+  /*height: 50px;*/
   margin: 0 30px 0 10px;
   align-self: flex-start;
   flex-grow: 0;
@@ -113,7 +112,9 @@ body {
 .card-title {
   font-size: var(--h3);
   font-weight: 600;
-  line-height: 3em;
+  /*line-height: 3em;*/
+  padding: 1em 15px 15px;
+  padding-left: 0px;
 }
 
 .icon {
@@ -124,7 +125,7 @@ body {
 
 /*containers*/
 .section {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   align-items: center;
   padding: 80px 0 60px 0;
@@ -133,7 +134,8 @@ body {
 
 .gallery {
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-around !important;
+  width: 100%;
 }
 
 .container {
@@ -183,6 +185,10 @@ body {
 .smaller-section {
   margin: 30px 0;
 }
+.persona-section {
+  margin: 0px;
+}
+
 .space-above {
   margin-top: 30px;
 }
@@ -319,6 +325,9 @@ body {
 .blog-img {
   background-color: #999;
   height: 200px;
+  width: 275px;
+  /*clip: rect(0px,200px,275px,0px);*/
+  overflow: hidden;
 }
 .blog-descript-info {
   width: 250px;
@@ -424,11 +433,13 @@ body {
 }
 .project-numbers h1{
   font-weight: bold;
-  font-size: 40px;
+  font-size: 64px;
   background: -webkit-linear-gradient(#EE4266, #3420AD);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
+  margin: 0;
+  line-height: normal;
 }
 .project-numbers h2{
   font-size: 16px;
@@ -452,7 +463,17 @@ body {
   border-radius: 50%;
 }
 .quote-bubble {
-  margin: 30px 0;
+  /*margin: 30px 0;*/
+  width: 100%;
+  padding: 2%;
+  border-radius: 6px;
+  background-color: var(--color-bg-light-purple);
+}
+.quote.b3 {
+  margin-bottom: 10px;
+}
+.persona-text {
+  /*margin: 30px 0;*/
   padding: 2%;
   border-radius: 6px;
   background-color: var(--color-bg-light-purple);
@@ -476,7 +497,7 @@ body {
   /*text-align: left;*/
 }
 .small-purple-section {
-  width: 30%;
+  width: 100%;
   max-width: 300px;
   padding-left: 20px;
 }
@@ -488,10 +509,18 @@ body {
 }
 .person-link {
   width: 30px;
+  height: 30px;
 }
 
 /* slideshow */
 
+.slideshow-img-wrapper{
+  position: relative;
+  width: 100%;
+  margin: 20px 0;
+  text-align: center;
+  background-color: #eeeeee;
+}
 .expand-icon{
   width: 24px;
   height: 24px;
@@ -499,6 +528,7 @@ body {
   bottom: 40px;
   right: 20px;
   color: black;
+  pointer-events: none;
 }
 .slideshow-img{
   width: 100%;
@@ -642,11 +672,16 @@ button:focus {outline:0;}
   display: block;
 }
 .tab-cover-image{
-  width: 100%;
-  margin-bottom: 50px;
-  cursor: pointer;
-  transition: 0.3s;
-  object-fit: cover;
+    height: 400px;
+    width: 90%;
+    cursor: pointer;
+    transition: 0.3s;
+    object-fit: contain;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    text-align: center;
 }
 .tab-cover-image:hover{
   opacity: 0.7;
@@ -736,7 +771,8 @@ button:focus {outline:0;}
 .text-box {
   background-image: url("../images/textbox.png");
   background-size: 100% 100%;
-  padding: 3vw 20px 20px;
+  padding: 60px 30px 30px;
+  padding-bottom: 40px;
 }
 
 .card-icon-ipad {
@@ -755,7 +791,37 @@ ul {
   padding-left: 15px;
 }
 
+.tablet-phone {
+  display: none;
+}
+
 @media (max-width: 991px) {
+  .slideshow-img-wrapper{
+    position: relative;
+    width: 100%;
+    margin: 20px 0;
+}
+  .teammate-intro .flexblock-headshot {
+    width: 150px;
+    height: 150px;
+  }
+
+/*  .image.right {
+    display: none;
+  }
+
+  .image.left {
+    display: none;
+  }*/
+
+  .hp-img-tablet {
+    display: block;
+  }
+
+  .hp-process-bar {
+    display: none;
+  }
+
   .desktop {
     display: none;
   }
@@ -766,6 +832,11 @@ ul {
 
   .tablet-phone {
     display: flex;
+  }
+
+  .arrow-text.tablet-phone {
+    padding-top: 30px;
+    display: block;
   }
 
   .banner-paragraph {
@@ -831,6 +902,7 @@ ul {
   .text-box {
     padding-left: 40px;
     padding-right: 40px;
+    padding-top: 40px;
   }
 
   .banner.section {
@@ -851,10 +923,6 @@ ul {
 
   .bg {
     width: 25%;
-  }
-
-  .smaller-section {
-    margin-top: 0px;
   }
 
   .hline {
@@ -880,6 +948,14 @@ ul {
 
   .tab-cover-image {
     margin-bottom: 20px;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    text-align: center;
   }
 
   .card-style1 {
@@ -910,6 +986,9 @@ ul {
 }
 
 @media (max-width: 479px) {
+  body {
+    font-size: 14px;
+  }
   .page-title {
     font-size: 40px;
   }
@@ -935,6 +1014,13 @@ ul {
   .card-title {
     font-size: 18px;
   }
+  .persona-section {
+    align-self: center;
+  }
+  .persona-section .card-title {
+    margin-top: 40px;
+    padding: 0;
+  }
   .mobile-v {
     flex-direction: column;
   }
@@ -946,5 +1032,44 @@ ul {
   }
   .h3 {
     font-size: 18px;
+  }
+  .flexblock-headshot {
+    align-self: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 15px 0;
+  }
+  .space-above.lg {
+    margin-top: 80px;
+  }
+  .footer-wrapper p {
+    font-size: 10px;
+  }
+  .footer-wrapper img {
+    width: 80px;
+  }
+  .slideshow-button {
+    margin: 0 15px;
+    width: 12px;
+  }
+  .slideshow-wrapper {
+    padding: 20px 0;
+  }
+  .slideshow-wrapper h2 {
+    font-size: 18px;
+  }
+  .slideshow-wrapper .h3 {
+    font-size: 16px;
+  }
+  .label {
+    font-size: 12px;
+  }
+  .h2 {
+    font-size: 16px;
+  }
+  .teammate-intro .flexblock-headshot {
+    width: 100px;
+    height: 100px;
   }
 }
