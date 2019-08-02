@@ -416,6 +416,9 @@ body {
 .shadowed {
   margin-left: -10px;
 }
+.image.bordered {
+  border: 1px #e7e7e7 solid;
+}
 .img-button {
   height: 3.5em;
   width: auto;
@@ -826,7 +829,7 @@ ul {
     width: 150px;
     height: 150px;
   }
-  
+
   .hp-img-tablet {
     display: block;
   }
