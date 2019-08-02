@@ -726,6 +726,9 @@ button:focus {outline:0;}
 .tab-bullet.blue li::before{
   color: #3420AD;
 }
+.tab-bullet.purple li::before{
+  color: var(--color-light-purple);
+}
 
 /*inpage nav*/
 .inpage-nav {
