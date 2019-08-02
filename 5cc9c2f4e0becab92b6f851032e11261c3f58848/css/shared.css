@@ -787,7 +787,7 @@ button:focus {outline:0;}
 
 .arrow-text.tablet-phone {
   padding-top: 30px;
-  display: block;
+  display: none;
 }
 
 .carousel {
@@ -808,7 +808,10 @@ ul {
     width: 100%;
     margin: 20px 0;
 }
-
+.arrow-text.tablet-phone {
+  padding-top: 30px;
+  display: block;
+}
 /*  .image.right {
     display: none;
   }
