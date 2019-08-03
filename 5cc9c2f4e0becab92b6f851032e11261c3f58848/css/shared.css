@@ -173,7 +173,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 .flex-h {
   display: flex;
   flex-direction: row;
