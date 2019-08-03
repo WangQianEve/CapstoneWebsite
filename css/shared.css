@@ -422,6 +422,9 @@ body {
 .image.bordered {
   border: 1px #e7e7e7 solid;
 }
+.image.hp-small {
+  padding: 0 5vw;
+}
 .img-button {
   height: 3.5em;
   width: auto;
@@ -947,6 +950,17 @@ ul {
     width: 25%;
   }
 
+  .tablet-phone-center-img {
+    margin: 10px 0;
+    padding: 0 !important;
+    width: 90%;
+    align-self: center;
+  }
+
+  .tablet-phone-center-img.hp-small {
+    width: 50%;
+  }
+
   .hline {
     display: none;
   }
@@ -1097,6 +1111,9 @@ ul {
   }
   .h2 {
     font-size: 16px;
+  }
+  .tablet-phone-center-img.hp-small {
+    width: 90%;
   }
   .teammate-intro .flexblock-headshot {
     width: 100px;
