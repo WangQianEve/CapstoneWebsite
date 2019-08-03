@@ -797,7 +797,7 @@ button:focus {outline:0;}
   border: 1px solid #ddd;
 }
 .text-box {
-  background-image: url("../images/textbox.png");
+  background-image: url("../images/textbox.svg");
   background-size: 100% 100%;
   padding: 60px 30px 30px;
   padding-bottom: 40px;
